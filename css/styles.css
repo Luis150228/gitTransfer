@@ -1,40 +1,40 @@
-/* Fila del aviso: que el contenido pueda crecer en vertical */
-.row-aviso {
-    display: flex;
-    gap: .5rem;
-    align-items: flex-start;
-    /* clave: no centres vertical, deja crecer */
+/* Aplica al tema grey */
+[data-bs-theme="grey"] .ol-grey {
+    color: var(--bs-body-color);
+    margin: 0 0 1rem;
+    padding-left: 1.25rem;
+    /* sangría estándar */
+    font-variant-numeric: tabular-nums;
+    /* números alineados */
+    list-style: decimal;
 }
 
-/* “Simular textarea” en los campos editables largos */
-.value.editable.multiline {
-    display: inline-block;
-    max-width: 200px;
-    /* tope horizontal que pediste */
-    min-height: 1.75rem;
-    /* alto mínimo tipo input */
-    padding: 6px 8px;
-    border: 1px solid #d0d5dd33;
-    /* estilo opcional */
-    border-radius: 6px;
-    background: #ffffff0a;
-    line-height: 1.25;
-    white-space: pre-wrap;
-    /* respeta \n y hace wrap */
-    overflow-wrap: anywhere;
-    /* corta palabras largas si hace falta */
-    word-break: break-word;
-    /* fallback */
+/* Color y estilo de los números */
+[data-bs-theme="grey"] .ol-grey>li::marker {
+    color: #9ca3af;
+    /* gris claro para el número */
+    font-weight: 600;
 }
 
-/* focus bonito (opcional) */
-.value.editable.multiline:focus {
-    outline: 2px solid #60a5fa88;
-    background: #ffffff12;
+/* Espaciados entre ítems y multilínea pulida */
+[data-bs-theme="grey"] .ol-grey>li {
+    margin: .25rem 0;
+    line-height: 1.4;
 }
 
-/* placeholder para contenteditable (si usas data-placeholder) */
-.value.editable.multiline:empty::before {
-    content: attr(data-placeholder);
-    color: #999;
+/* Listas anidadas: números más discretos y sangría menor */
+[data-bs-theme="grey"] .ol-grey ol {
+    margin-top: .25rem;
+    padding-left: 1rem;
+    list-style: lower-alpha;
+}
+
+[data-bs-theme="grey"] .ol-grey ol>li::marker {
+    color: #808691;
+    font-weight: 500;
+}
+
+/* Variante opcional: ceros a la izquierda (01, 02, …) */
+[data-bs-theme="grey"] .ol-grey.leading-zero {
+    list-style: decimal-leading-zero;
 }
