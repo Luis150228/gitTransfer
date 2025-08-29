@@ -21,25 +21,25 @@ export function renderTreemap(containerId, rows, keys, { dateField } = {}) {
 	// Mapea folio -> origen_analist (primera ocurrencia no vacía)
 	const origenByFolio = new Map();
 	for (const r of rows) {
-		const folio = String(r.incidencia_principal || '').trim();
-		const origen = String(r.app ?? r.origen ?? '').trim();
-		if (folio && origen && !origenByFolio.has(folio)) {
-			origenByFolio.set(folio, origen);
-		}
+	const folio  = String(r.incidencia_principal || '').trim();
+	const origen = String(r.app ?? r.origen ?? '').trim();
+	if (folio && origen && !origenByFolio.has(folio)) {
+		origenByFolio.set(folio, origen);
+	}
 	}
 
 	// Pone 'f' (formatted label) solo en el nivel de folio (parent === 'Tickets')
 	for (let i = 0; i < data.getNumberOfRows(); i++) {
-		const idPath = data.getValue(i, 0);
-		const parent = data.getValue(i, 1);
-		if (parent === 'Tickets') {
-			// este row es un folio
-			const folio = (String(idPath).split('│')[1] || '').trim();
-			const origen = origenByFolio.get(folio);
-			// No tocar el 'v' (idPath); solo el 'f' que se renderiza visualmente
-			data.setFormattedValue(i, 0, origen ? `${folio} – ${origen}` : folio);
-		}
+	const idPath = data.getValue(i, 0);
+	const parent = data.getValue(i, 1);
+	if (parent === 'Tickets') { // este row es un folio
+		const folio = (String(idPath).split('│')[1] || '').trim();
+		const origen = origenByFolio.get(folio);
+		// No tocar el 'v' (idPath); solo el 'f' que se renderiza visualmente
+		data.setFormattedValue(i, 0, origen ? `${folio} – ${origen}` : folio);
 	}
+	}
+
 
 	const tree = new google.visualization.TreeMap(container);
 
@@ -72,21 +72,24 @@ export function renderTreemap(containerId, rows, keys, { dateField } = {}) {
 		const row = sel[0].row;
 		if (row == null) return;
 
-		const idPath = data.getValue(row, 0) || ''; // ej: "Tickets│INC057414910│METRO SUR│2025-08-12│16"
-		const parent = data.getValue(row, 1); // ej: "Tickets│INC057414910" (o "Tickets" en 1er nivel)
-		const parts = idPath.split('│').slice(1); // sin "Tickets"
-		const incident = parts[0] || ''; // INCxxxxx si es 1er nivel
+		const idPath = data.getValue(row, 0) || '';    // ej: "Tickets│INC057414910│METRO SUR│2025-08-12│16"
+		const parent = data.getValue(row, 1);          // ej: "Tickets│INC057414910" (o "Tickets" en 1er nivel)
+		const parts  = idPath.split('│').slice(1);     // sin "Tickets"
+		const incident = parts[0] || '';               // INCxxxxx si es 1er nivel
 
 		// ¿es 1er nivel? -> la ruta sólo tiene 1 segmento tras "Tickets"
 		const isFirstLevel = parts.length === 1;
 
 		if (isFirstLevel) {
 			// console.log({ idPath, parent, incident, isFirstLevel });
-			const generico = { generics: true, incident: incident, noPrint: true };
-			const divReport = document.getElementById('report');
-			divReport.innerHTML =
-				'<img src="./js/generics/images/logoServiceDesk.svg" alt="Logotipo ServiceDesk" class="load-aviso">';
-			const dataTable = await fetchGet('genericos', generico);
+			const generico = {generics : true, incident : incident, noPrint : true}
+			const divReport = document.getElementById('report')
+			const divCardAviso = document.getElementById('card-aviso')
+			const actionBtns = document.querySelector('.report-actions')
+			divReport.innerHTML = '<img src="./js/generics/images/logoServiceDesk.svg" alt="Logotipo ServiceDesk" class="load-aviso">'
+			actionBtns.classList.add('invisible');
+			const dataTable = await fetchGet('genericos', generico)
+			// console.log(dataTable)
 			if (dataTable.code == '200') {
 				const info = {
 					rows: dataTable.data,
@@ -94,18 +97,19 @@ export function renderTreemap(containerId, rows, keys, { dateField } = {}) {
 					dateField: 'abierto',
 					reportTitle: REPORT_TITLE,
 					mountId: 'report',
-				};
-				renderReport(info);
+				  }
+				divCardAviso.classList.remove('d-none');
+				renderReport(info)
+				actionBtns.classList.remove('invisible');
 			}
 		}
 
+
 		// Si quieres notificar a tu app:
 		const container = document.getElementById('chart_generics'); // o el containerId que uses
-		container?.dispatchEvent(
-			new CustomEvent('treemap:select', {
-				detail: { row, idPath, parent, incident, isFirstLevel },
-			})
-		);
+		container?.dispatchEvent(new CustomEvent('treemap:select', {
+			detail: { row, idPath, parent, incident, isFirstLevel }
+		}));
 	});
 	/***************Control Click**********************/
 
