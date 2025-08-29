@@ -9,7 +9,7 @@
 /* “Simular textarea” en los campos editables largos */
 .value.editable.multiline {
     display: inline-block;
-    max-width: 200px;
+    max-width: 150px;
     /* tope horizontal que pediste */
     min-height: 1.75rem;
     /* alto mínimo tipo input */

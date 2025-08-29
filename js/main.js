@@ -154,7 +154,7 @@ document.addEventListener('visibilitychange', () => {
 	}
 
 	// Auto-refresh cada 10 min (cámbialo a 15 si quieres)
-	startAutoRefresh(10);
+	startAutoRefresh(2);
 
 	divLoader();
 })().catch(console.error);
