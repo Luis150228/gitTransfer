@@ -86,8 +86,18 @@ export function renderTreemap(containerId, rows, keys, { dateField } = {}) {
 			const divReport = document.getElementById('report')
 			const divCardAviso = document.getElementById('card-aviso')
 			const actionBtns = document.querySelector('.report-actions')
-			divReport.innerHTML = '<img src="./js/generics/images/logoServiceDesk.svg" alt="Logotipo ServiceDesk" class="load-aviso">'
+			divReport.innerHTML = `
+			<div class="load-card-aviso">						
+				<img src="./js/generics/images/logoServiceDesk.svg" alt="Logotipo ServiceDesk" class="load-aviso">
+				<div class="d-flex justify-content-center">
+					<div class="spinner-border spinner-border-xl" role="status">
+						<span class="visually-hidden">Loading...</span>
+					</div>
+				</div>
+			</div>
+			`
 			actionBtns.classList.add('invisible');
+			divCardAviso.classList.remove('d-none');
 			const dataTable = await fetchGet('genericos', generico)
 			// console.log(dataTable)
 			if (dataTable.code == '200') {
@@ -98,7 +108,6 @@ export function renderTreemap(containerId, rows, keys, { dateField } = {}) {
 					reportTitle: REPORT_TITLE,
 					mountId: 'report',
 				  }
-				divCardAviso.classList.remove('d-none');
 				renderReport(info)
 				actionBtns.classList.remove('invisible');
 			}
