@@ -25,52 +25,72 @@
         <nav class="navbar navbar-expand-lg navbar" id="nav-bar-primary"></nav>
         <div class="container-fluid">
 
-                <div class="row">
-                    <div class="jumbotron">
-                        <div class="title-time">
-                            <h1 class="display-5">Reportes EUT Generico</h1>
-                            <div id="eut-time"><span id="fecha"></span></div>
-                        </div>
-                        <p class="lead">Seguimiento reporte Generico</p>
-                        <hr class="my-2" />
+            <div class="row">
+                <div class="jumbotron">
+                    <div class="title-time">
+                        <h1 class="display-5">Reportes EUT Generico</h1>
+                        <div id="eut-time"><span id="fecha"></span></div>
                     </div>
+                    <p class="lead">Seguimiento reporte Generico</p>
+                    <hr class="my-2" />
                 </div>
+            </div>
 
-                <div id="veiw-secction" class="dashboard-section">
-                    <div class="card-zone">
-                        <div class="card">
-                            <div class="card-header title-card-header">
-                                <p class="title-card">Dashboard Generico</p>
-                                <a class="link-downLoad" id="blgeut"><i class="bi bi-cloud-download-fill"></i></a>
+            <div id="veiw-secction" class="dashboard-section">
+                <div class="card-zone">
+                    <div class="card">
+                        <div class="card-header title-card-header">
+                            <p class="title-card">Dashboard Generico</p>
+                            <a class="link-downLoad" id="blgeut"><i class="bi bi-cloud-download-fill"></i></a>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart-size-generic">
+                                <div id="chart_generics"></div>
                             </div>
-                            <div class="card-body">
-                                <div class="chart-size-generic">
-                                    <div id="chart_generics"></div>
+                        </div>
+                    </div>
+                    <div class="card d-none" id="card-aviso">
+                        <div class="card-header title-card-header">
+                            <p class="title-card">Aviso Generico</p>
+                            <a class="link-downLoad" id="blgeut"><i class="bi bi-cloud-download-fill"></i></a>
+                        </div>
+                        <div class="card-body">
+                            <div id="reportWrap">
+                                <div class="report-actions">
+                                    <button id="ScreenFailBtn" type="button" data-bs-toggle="modal"
+                                        data-bs-target="#fail-screen-modal">Pantalla Error</button>
+                                    <button id="toggleEditBtn" type="button">Editar</button>
+                                    <button id="saveReportBtn" type="button">Guardar PNG</button>
+                                </div>
+                                <div id="report">
+                                    <img src="./js/generics/images/logoServiceDesk.svg" alt="Logotipo ServiceDesk"
+                                        class="load-aviso">
                                 </div>
                             </div>
                         </div>
-                        <div class="card d-none" id="card-aviso">
-                            <div class="card-header title-card-header">
-                                <p class="title-card">Aviso Generico</p>
-                                <a class="link-downLoad" id="blgeut"><i class="bi bi-cloud-download-fill"></i></a>
-                            </div>
-                            <div class="card-body">
-                                <div id="reportWrap">
-                                    <div class="report-actions">
-                                        <button id="ScreenFailBtn" type="button" data-bs-toggle="modal" data-bs-target="#fail-screen-modal">Pantalla Error</button>
-                                        <button id="toggleEditBtn" type="button">Editar</button>
-                                        <button id="saveReportBtn" type="button">Guardar PNG</button>
-                                    </div>
-                                    <div id="report">
-                                        <img src="./js/generics/images/logoServiceDesk.svg" alt="Logotipo ServiceDesk" class="load-aviso">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                    
                     </div>
                 </div>
+            </div>
         </div>
     </main>
+
+    <div class="row-aviso">
+        <span class="label">Impacto:</span>
+        <div class="value editable multiline" contenteditable="true" data-key="affected"
+            data-placeholder="Número de afectados / detalle">
+            ${escapeHtml(impacto)}
+        </div>
+    </div>
+
+    <div class="row-aviso">
+        <span class="label">Afectación:</span>
+        <div class="value editable multiline" contenteditable="true" data-key="affectedService"
+            data-placeholder="Área/servicio afectado">
+            ${escapeHtml(afectacion)}
+        </div>
+    </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.11/dist/html-to-image.min.js"></script>
     <script src="./js/index.js" type="module"></script>
     <!-- <script src="./js/chartsReports.js" type="module"></script> -->

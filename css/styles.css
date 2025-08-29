@@ -1,0 +1,40 @@
+/* Fila del aviso: que el contenido pueda crecer en vertical */
+.row-aviso {
+    display: flex;
+    gap: .5rem;
+    align-items: flex-start;
+    /* clave: no centres vertical, deja crecer */
+}
+
+/* “Simular textarea” en los campos editables largos */
+.value.editable.multiline {
+    display: inline-block;
+    max-width: 200px;
+    /* tope horizontal que pediste */
+    min-height: 1.75rem;
+    /* alto mínimo tipo input */
+    padding: 6px 8px;
+    border: 1px solid #d0d5dd33;
+    /* estilo opcional */
+    border-radius: 6px;
+    background: #ffffff0a;
+    line-height: 1.25;
+    white-space: pre-wrap;
+    /* respeta \n y hace wrap */
+    overflow-wrap: anywhere;
+    /* corta palabras largas si hace falta */
+    word-break: break-word;
+    /* fallback */
+}
+
+/* focus bonito (opcional) */
+.value.editable.multiline:focus {
+    outline: 2px solid #60a5fa88;
+    background: #ffffff12;
+}
+
+/* placeholder para contenteditable (si usas data-placeholder) */
+.value.editable.multiline:empty::before {
+    content: attr(data-placeholder);
+    color: #999;
+}
