@@ -1,0 +1,14 @@
+{
+    "afectacion-win": "ventana",
+    "aplication": "Caller-99",
+    "fail": "No permite ingresar a tracking ya que manda error.",
+    "errorScreen": "Service Unavailable",
+    "affected": "No permite ingresar a tracking ya que manda error.",
+    "affectedService": "Sucursales / Corporativos",
+    "principalTicket": "INC057985850",
+    "associateTickets": "27",
+    "dateBegin": "2025-08-27 11:40 a.m.",
+    "dateCut": "2025-08-28 01:42 p.m.",
+    "bandejaAsignacion": "bandeja",
+    "notasResolucion": "nota"
+}
