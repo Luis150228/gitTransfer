@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/Banco_Santander_LogotipoSmall.svg" />
+    <title>EUT Reporte Generico</title>
+    <link rel="stylesheet" href="../css/tableroSeguimientoSucursales.css" />
+    <link rel="stylesheet" href="../apps/js/generics/index.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/preloader.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <script src="../assets/bootstrap-5.3.0-alpha2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/googleCharts/chartsLoader.js"></script>
+    <script src="../assets/chartJs/Chartjs_433_chart.umd.js"></script>
+    <script src="../assets/canvas/html2canvas.js"></script>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+<body data-bs-theme="grey">
+    <main>
+        <nav class="navbar navbar-expand-lg navbar" id="nav-bar-primary"></nav>
+        <div class="container-fluid">
+
+                <div class="row">
+                    <div class="jumbotron">
+                        <div class="title-time">
+                            <h1 class="display-5">Reportes EUT Generico</h1>
+                            <div id="eut-time"><span id="fecha"></span></div>
+                        </div>
+                        <p class="lead">Seguimiento reporte Generico</p>
+                        <hr class="my-2" />
+                    </div>
+                </div>
+
+                <div id="veiw-secction" class="dashboard-section">
+                    <div class="card-zone">
+                        <div class="card">
+                            <div class="card-header title-card-header">
+                                <p class="title-card">Dashboard Generico</p>
+                                <a class="link-downLoad" id="blgeut"><i class="bi bi-cloud-download-fill"></i></a>
+                            </div>
+                            <div class="card-body">
+                                <div class="chart-size-generic">
+                                    <div id="chart_generics"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header title-card-header">
+                                <p class="title-card">Aviso Generico</p>
+                                <a class="link-downLoad" id="blgeut"><i class="bi bi-cloud-download-fill"></i></a>
+                            </div>
+                            <div class="card-body">
+                                <div id="reportWrap">
+                                    <div class="report-actions">
+                                        <button id="ScreenFailBtn" type="button" data-bs-toggle="modal" data-bs-target="#fail-screen-modal">Pantalla Error</button>
+                                        <button id="toggleEditBtn" type="button">Editar</button>
+                                        <button id="saveReportBtn" type="button">Guardar PNG</button>
+                                    </div>
+                                    <div id="report">
+                                        <img src="./js/generics/images/logoServiceDesk.svg" alt="Logotipo ServiceDesk" class="load-aviso">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.11/dist/html-to-image.min.js"></script>
+    <script src="./js/index.js" type="module"></script>
+    <!-- <script src="./js/chartsReports.js" type="module"></script> -->
+    <script src="./js/generics/main.js" type="module"></script>
+</body>
+
+</html>
