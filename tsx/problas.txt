@@ -1,0 +1,60 @@
+[{
+	"resource": "/c:/dev/adminhardware_eut/src/components/Header.tsx",
+	"owner": "typescript",
+	"code": "1484",
+	"severity": 8,
+	"message": "'FC' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.",
+	"source": "ts",
+	"startLineNumber": 2,
+	"startColumn": 10,
+	"endLineNumber": 2,
+	"endColumn": 12
+}]
+
+[{
+	"resource": "/c:/dev/adminhardware_eut/src/components/images/Icons.tsx",
+	"owner": "typescript",
+	"code": "1484",
+	"severity": 8,
+	"message": "'FC' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.",
+	"source": "ts",
+	"startLineNumber": 2,
+	"startColumn": 10,
+	"endLineNumber": 2,
+	"endColumn": 12
+},{
+	"resource": "/c:/dev/adminhardware_eut/src/components/images/Icons.tsx",
+	"owner": "typescript",
+	"code": "2503",
+	"severity": 8,
+	"message": "Cannot find namespace 'JSX'.",
+	"source": "ts",
+	"startLineNumber": 14,
+	"startColumn": 31,
+	"endLineNumber": 14,
+	"endColumn": 34
+}]
+
+[{
+	"resource": "/c:/dev/adminhardware_eut/src/components/Sidebar.tsx",
+	"owner": "typescript",
+	"code": "1484",
+	"severity": 8,
+	"message": "'FC' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.",
+	"source": "ts",
+	"startLineNumber": 2,
+	"startColumn": 10,
+	"endLineNumber": 2,
+	"endColumn": 12
+},{
+	"resource": "/c:/dev/adminhardware_eut/src/components/Sidebar.tsx",
+	"owner": "typescript",
+	"code": "1484",
+	"severity": 8,
+	"message": "'IconName' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.",
+	"source": "ts",
+	"startLineNumber": 3,
+	"startColumn": 16,
+	"endLineNumber": 3,
+	"endColumn": 24
+}]
