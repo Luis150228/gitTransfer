@@ -1,11 +1,9 @@
 // src/components/Header.tsx
-import { FC } from 'react';
-
-type HeaderProps = {
+export interface HeaderProps {
   onToggleSidebar: () => void;
-};
+}
 
-export const Header: FC<HeaderProps> = ({ onToggleSidebar }) => {
+export function Header({ onToggleSidebar }: HeaderProps) {
   return (
     <header className="sticky top-0 z-40 h-14 bg-white border-b border-mid-500/20">
       <div className="h-full max-w-7xl mx-auto flex items-center px-4 gap-3">
@@ -20,10 +18,9 @@ export const Header: FC<HeaderProps> = ({ onToggleSidebar }) => {
         </button>
 
         <div className="flex items-center gap-2">
-          {/* tu logo aquí */}
           <span className="font-semibold tracking-tight text-dark-900">Mi Banco</span>
         </div>
       </div>
     </header>
   );
-};
+}
