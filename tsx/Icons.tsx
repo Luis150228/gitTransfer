@@ -1,5 +1,5 @@
 // src/components/images/Icons.tsx
-import { FC } from 'react';
+import type { ReactElement } from 'react';
 
 export type IconName =
   | 'grid'
@@ -11,7 +11,7 @@ export type IconName =
   | 'umbrella'
   | 'help';
 
-const icons: Record<IconName, JSX.Element> = {
+const icons: Record<IconName, ReactElement> = {
   grid: (
     <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.8">
       <path d="M3 3h8v8H3zM13 3h8v8h-8zM3 13h8v8H3zM13 13h8v8h-8z" />
@@ -61,4 +61,6 @@ const icons: Record<IconName, JSX.Element> = {
   ),
 };
 
-export const Icon: FC<{ name: IconName }> = ({ name }) => icons[name];
+export function Icon({ name }: { name: IconName }) {
+  return icons[name];
+}
