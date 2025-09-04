@@ -1,0 +1,306 @@
+<!DOCTYPE html><html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bento/Vento Layout • Tailwind + ECharts</title><!-- Tailwind CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        boxShadow: {
+          glow: '0 0 0 1px rgb(255 255 255 / 0.08), 0 10px 25px rgb(0 0 0 / 0.35)'
+        },
+        keyframes: {
+          fadeUp: {
+            '0%': { opacity: 0, transform: 'translateY(12px) scale(0.98)' },
+            '100%': { opacity: 1, transform: 'translateY(0) scale(1)' }
+          }
+        },
+        animation: {
+          fadeUp: 'fadeUp .5s cubic-bezier(.2,.7,.2,1) forwards'
+        }
+      }
+    }
+  }
+</script>
+
+<style>
+  /* Glass + grid polish */
+  .glass { backdrop-filter: blur(10px); background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.04)); }
+  .card { transition: transform .35s ease, opacity .35s ease, box-shadow .35s ease; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,.25); }
+
+  /* Stagger helper: we set style="--d: N" in JS */
+  .stagger { opacity: 0; animation: fadeUp .6s ease forwards; animation-delay: calc(var(--d, 0) * 60ms); }
+
+  /* Hide scrollbar on sidebar */
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+</style>
+
+<!-- ECharts -->
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+
+  </head>  <body class="min-h-screen bg-[radial-gradient(1000px_600px_at_10%_-10%,#7c3aed20,transparent),radial-gradient(800px_500px_at_110%_10%,#22c55e20,transparent),#0b0b10] text-slate-100">
+    <!-- Topbar (mobile) -->
+    <header class="lg:hidden sticky top-0 z-40">
+      <div class="glass shadow-glow flex items-center justify-between px-4 py-3">
+        <button id="btnSidebar" class="px-3 py-2 rounded-xl bg-white/10 hover:bg-white/15 active:scale-95">☰</button>
+        <h1 class="font-semibold">Panel Bento</h1>
+        <span class="text-xs text-white/60">Demo</span>
+      </div>
+    </header><div class="relative mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-8">
+  <div class="flex gap-4 lg:gap-6 py-4 lg:py-8">
+    <!-- Sidebar -->
+    <aside id="sidebar" class="w-72 shrink-0 hidden lg:block lg:sticky lg:top-8 h-[85vh] glass rounded-2xl shadow-glow p-4 overflow-y-auto no-scrollbar">
+      <div class="mb-4">
+        <h2 class="text-sm uppercase tracking-widest text-white/60">Navegación</h2>
+      </div>
+      <nav class="grid gap-2" id="menu">
+        <button data-target="overview" class="nav-btn active rounded-xl text-left px-3 py-2 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/20">
+          <div class="font-semibold">Overview</div>
+          <div class="text-xs text-white/60">Resumen con KPIs y gráfico</div>
+        </button>
+        <button data-target="ventas" class="nav-btn rounded-xl text-left px-3 py-2 hover:bg-white/10">
+          <div class="font-semibold">Ventas</div>
+          <div class="text-xs text-white/60">Embudo, tickets y revenue</div>
+        </button>
+        <button data-target="usuarios" class="nav-btn rounded-xl text-left px-3 py-2 hover:bg-white/10">
+          <div class="font-semibold">Usuarios</div>
+          <div class="text-xs text-white/60">Actividad y retención</div>
+        </button>
+        <button data-target="sistema" class="nav-btn rounded-xl text-left px-3 py-2 hover:bg-white/10">
+          <div class="font-semibold">Sistema</div>
+          <div class="text-xs text-white/60">Salud del backend</div>
+        </button>
+      </nav>
+
+      <div class="mt-6 border-t border-white/10 pt-4 text-xs text-white/60">
+        Hecho con Tailwind + ECharts
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <main class="flex-1 grid gap-4 lg:gap-6">
+      <!-- Overview Section -->
+      <section id="section-overview" class="section">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-6 auto-rows-[160px] gap-4 lg:gap-6">
+          <!-- Big Chart (spans) -->
+          <div class="card stagger col-span-1 md:col-span-2 xl:col-span-4 xl:row-span-2 glass rounded-2xl shadow-glow p-4">
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="font-semibold">Tráfico y Conversión</h3>
+              <span class="text-xs text-white/60">últimos 14 días</span>
+            </div>
+            <div id="chart-overview" class="h-[280px] md:h-[300px] xl:h-[360px] w-full"></div>
+          </div>
+
+          <div class="card stagger glass rounded-2xl shadow-glow p-4 flex flex-col justify-between">
+            <div class="text-sm text-white/60">Usuarios activos</div>
+            <div class="text-3xl font-bold">12,483</div>
+            <div class="text-xs text-emerald-400">+8.2% vs semana pasada</div>
+          </div>
+
+          <div class="card stagger glass rounded-2xl shadow-glow p-4 flex flex-col justify-between">
+            <div class="text-sm text-white/60">Nuevos registros</div>
+            <div class="text-3xl font-bold">1,204</div>
+            <div class="text-xs text-emerald-400">+3.1%</div>
+          </div>
+
+          <div class="card stagger glass rounded-2xl shadow-glow p-4 flex flex-col justify-between">
+            <div class="text-sm text-white/60">Churn</div>
+            <div class="text-3xl font-bold">2.4%</div>
+            <div class="text-xs text-red-300">-0.2pp</div>
+          </div>
+
+          <div class="card stagger glass rounded-2xl shadow-glow p-4 flex flex-col justify-between">
+            <div class="text-sm text-white/60">Tiempo medio sesión</div>
+            <div class="text-3xl font-bold">7m 42s</div>
+            <div class="text-xs text-white/60">—</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Ventas Section -->
+      <section id="section-ventas" class="section hidden">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-6 auto-rows-[160px] gap-4 lg:gap-6">
+          <div class="card stagger glass rounded-2xl shadow-glow p-4 xl:col-span-2">
+            <h3 class="font-semibold mb-2">Embudo</h3>
+            <ul class="text-sm space-y-2 text-white/80">
+              <li>Visitas → 84k</li>
+              <li>Leads → 6.1k</li>
+              <li>Oportunidades → 1.8k</li>
+              <li>Ventas → 412</li>
+            </ul>
+          </div>
+          <div class="card stagger glass rounded-2xl shadow-glow p-4 xl:col-span-4 xl:row-span-2">
+            <h3 class="font-semibold mb-2">Revenue</h3>
+            <div id="chart-ventas" class="h-[280px] md:h-[300px] xl:h-[360px] w-full"></div>
+          </div>
+          <div class="card stagger glass rounded-2xl shadow-glow p-4">
+            <h3 class="font-semibold mb-1">Ticket promedio</h3>
+            <div class="text-3xl font-bold">$ 1,320</div>
+            <div class="text-xs text-emerald-400">+5.4%</div>
+          </div>
+          <div class="card stagger glass rounded-2xl shadow-glow p-4">
+            <h3 class="font-semibold mb-1">MRR</h3>
+            <div class="text-3xl font-bold">$ 52.8k</div>
+            <div class="text-xs text-emerald-400">+2.9%</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Usuarios Section -->
+      <section id="section-usuarios" class="section hidden">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-6 auto-rows-[160px] gap-4 lg:gap-6">
+          <div class="card stagger glass rounded-2xl shadow-glow p-4 xl:col-span-2">
+            <h3 class="font-semibold mb-2">Cohortes</h3>
+            <p class="text-sm text-white/70">Retención W1 → 41% · W4 → 23%</p>
+          </div>
+          <div class="card stagger glass rounded-2xl shadow-glow p-4 xl:col-span-4 xl:row-span-2">
+            <h3 class="font-semibold mb-2">Actividad</h3>
+            <div id="chart-usuarios" class="h-[280px] md:h-[300px] xl:h-[360px] w-full"></div>
+          </div>
+          <div class="card stagger glass rounded-2xl shadow-glow p-4">
+            <h3 class="font-semibold mb-1">DAU/MAU</h3>
+            <div class="text-3xl font-bold">18%</div>
+            <div class="text-xs text-emerald-400">+1.2pp</div>
+          </div>
+          <div class="card stagger glass rounded-2xl shadow-glow p-4">
+            <h3 class="font-semibold mb-1">NPS</h3>
+            <div class="text-3xl font-bold">47</div>
+            <div class="text-xs text-white/60">estable</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sistema Section -->
+      <section id="section-sistema" class="section hidden">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-6 auto-rows-[160px] gap-4 lg:gap-6">
+          <div class="card stagger glass rounded-2xl shadow-glow p-4 xl:col-span-2">
+            <h3 class="font-semibold mb-2">Salud</h3>
+            <p class="text-sm text-white/70">API 99.97% · p95 218ms</p>
+          </div>
+          <div class="card stagger glass rounded-2xl shadow-glow p-4 xl:col-span-4 xl:row-span-2">
+            <h3 class="font-semibold mb-2">Logs en tiempo real</h3>
+            <div class="h-full w-full grid place-content-center text-white/50 text-sm">(tu stream aquí)</div>
+          </div>
+          <div class="card stagger glass rounded-2xl shadow-glow p-4">
+            <h3 class="font-semibold mb-1">Jobs activos</h3>
+            <div class="text-3xl font-bold">37</div>
+            <div class="text-xs text-white/60">3 en cola</div>
+          </div>
+          <div class="card stagger glass rounded-2xl shadow-glow p-4">
+            <h3 class="font-semibold mb-1">Errores</h3>
+            <div class="text-3xl font-bold">0.12%</div>
+            <div class="text-xs text-emerald-400">-0.03pp</div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</div>
+
+<script>
+  // Sidebar toggle (mobile)
+  const btnSidebar = document.getElementById('btnSidebar');
+  const sidebar = document.getElementById('sidebar');
+  if (btnSidebar) btnSidebar.addEventListener('click', () => sidebar.classList.toggle('hidden'));
+
+  // Menu switching
+  const menu = document.getElementById('menu');
+  const sections = {
+    overview: document.getElementById('section-overview'),
+    ventas: document.getElementById('section-ventas'),
+    usuarios: document.getElementById('section-usuarios'),
+    sistema: document.getElementById('section-sistema')
+  };
+
+  function showSection(key) {
+    Object.entries(sections).forEach(([k, el]) => {
+      if (!el) return;
+      if (k === key) {
+        el.classList.remove('hidden');
+        // Stagger cards on entrance
+        const cards = el.querySelectorAll('.card');
+        cards.forEach((c, i) => {
+          c.style.setProperty('--d', i);
+          c.classList.remove('stagger'); // reset if already had
+          // force reflow to replay animation
+          void c.offsetWidth;
+          c.classList.add('stagger');
+        });
+      } else {
+        el.classList.add('hidden');
+      }
+    });
+
+    // Active state in menu
+    menu?.querySelectorAll('.nav-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.target === key);
+    });
+  }
+
+  menu?.addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-target]');
+    if (!btn) return;
+    showSection(btn.dataset.target);
+  });
+
+  // Initialize charts
+  function initOverviewChart() {
+    const el = document.getElementById('chart-overview');
+    if (!el) return;
+    const chart = echarts.init(el);
+    chart.setOption({
+      grid: { left: 30, right: 20, top: 20, bottom: 30 },
+      tooltip: { trigger: 'axis' },
+      xAxis: { type: 'category', data: Array.from({length: 14}, (_,i)=>`D${i+1}`), boundaryGap: false },
+      yAxis: { type: 'value' },
+      series: [
+        { name: 'Visitas', type: 'line', smooth: true, areaStyle: {}, data: [220,260,230,310,290,340,320,360,380,420,400,480,510,530] },
+        { name: 'Conversiones', type: 'line', smooth: true, data: [12,14,13,15,16,17,16,18,17,19,18,20,21,22] }
+      ]
+    });
+    window.addEventListener('resize', () => chart.resize());
+  }
+
+  function initVentasChart() {
+    const el = document.getElementById('chart-ventas');
+    if (!el) return;
+    const chart = echarts.init(el);
+    chart.setOption({
+      grid: { left: 40, right: 20, top: 20, bottom: 40 },
+      tooltip: { trigger: 'axis' },
+      xAxis: { type: 'category', data: ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'] },
+      yAxis: { type: 'value' },
+      series: [ { name: 'Revenue', type: 'bar', data: [32,35,31,38,42,45,48,49,47,52,56,60] } ]
+    });
+    window.addEventListener('resize', () => chart.resize());
+  }
+
+  function initUsuariosChart() {
+    const el = document.getElementById('chart-usuarios');
+    if (!el) return;
+    const chart = echarts.init(el);
+    chart.setOption({
+      grid: { left: 30, right: 20, top: 20, bottom: 30 },
+      tooltip: { trigger: 'axis' },
+      xAxis: { type: 'category', data: ['Lun','Mar','Mié','Jue','Vie','Sáb','Dom'] },
+      yAxis: { type: 'value' },
+      series: [
+        { name: 'DAU', type: 'line', smooth: true, data: [1500,1700,1650,1800,2100,2400,2000] }
+      ]
+    });
+    window.addEventListener('resize', () => chart.resize());
+  }
+
+  // Boot
+  showSection('overview');
+  initOverviewChart();
+  initVentasChart();
+  initUsuariosChart();
+</script>
+
+  </body>
+</html>
