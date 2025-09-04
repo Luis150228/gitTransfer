@@ -1,0 +1,78 @@
+/* Botón flotante: esquina inferior derecha */
+.fab-logout {
+    position: fixed;
+    right: 16px;
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    /* respeta notch en móviles */
+    z-index: 1080;
+    /* por encima de la navbar */
+    width: 56px;
+    height: 56px;
+    border: 0;
+    border-radius: 50%;
+    display: inline-grid;
+    place-items: center;
+    font-size: 22px;
+    /* tamaño del ícono */
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .35);
+    transition: transform .15s ease, box-shadow .15s ease, opacity .15s ease;
+    /* Colores por defecto (tema claro/oscuro Bootstrap) */
+    background: var(--bs-danger, #dc3545);
+    color: #fff;
+}
+
+/* Hover/active/focus */
+.fab-logout:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, .4);
+}
+
+.fab-logout:active {
+    transform: translateY(0);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, .35);
+}
+
+.fab-logout:focus {
+    outline: none;
+    box-shadow:
+        0 12px 28px rgba(0, 0, 0, .4),
+        0 0 0 3px rgba(220, 53, 69, .35);
+    /* anillo de enfoque */
+}
+
+/* Respeto por usuarios con motion reducido */
+@media (prefers-reduced-motion: reduce) {
+    .fab-logout {
+        transition: none;
+    }
+
+    .fab-logout:hover,
+    .fab-logout:active {
+        transform: none;
+    }
+}
+
+/* Ajuste con tu tema "grey" para integrarlo visualmente */
+[data-bs-theme="grey"] .fab-logout {
+    background: #e11d48;
+    /* rosa/rojo vibrante en dark */
+    color: #fff;
+}
+
+[data-bs-theme="grey"] .fab-logout:focus {
+    box-shadow:
+        0 12px 28px rgba(0, 0, 0, .45),
+        0 0 0 3px rgba(225, 29, 72, .4);
+}
+
+/* Variante compacta en pantallas muy pequeñas */
+@media (max-width: 390px) {
+    .fab-logout {
+        width: 48px;
+        height: 48px;
+        font-size: 20px;
+        right: 12px;
+        bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+    }
+}
