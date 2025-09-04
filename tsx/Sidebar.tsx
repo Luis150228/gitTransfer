@@ -1,11 +1,11 @@
 // src/components/Sidebar.tsx
-import { FC } from 'react';
-import { Icon, IconName } from './images/Icons';
+import { Icon } from './images/Icons';
+import type { IconName } from './images/Icons';
 
-type SidebarProps = {
+export interface SidebarProps {
   open: boolean;
   onClose: () => void;
-};
+}
 
 const items: { label: string; icon: IconName }[] = [
   { label: 'Resumen', icon: 'grid' },
@@ -18,11 +18,10 @@ const items: { label: string; icon: IconName }[] = [
   { label: 'Soporte', icon: 'help' },
 ];
 
-export const Sidebar: FC<SidebarProps> = ({ open, onClose }) => {
+export function Sidebar({ open, onClose }: SidebarProps) {
   return (
     <aside
       className={[
-        // siempre en STRING, no objeto
         'fixed md:sticky left-0 top-14 md:top-0 z-30',
         'w-72 md:w-64',
         'h-[calc(100dvh-3.5rem)] md:h-[100dvh]',
@@ -47,14 +46,6 @@ export const Sidebar: FC<SidebarProps> = ({ open, onClose }) => {
           </a>
         ))}
       </nav>
-
-      <div className="mt-6 p-3 rounded-lg bg-light-50 border border-light-50">
-        <p className="text-sm text-mid-500">Saldo disponible</p>
-        <p className="text-xl font-semibold">$25,340.00</p>
-        <button className="mt-3 bg-santander-500 text-white px-4 py-2 rounded-md hover:opacity-95 active:scale-95 w-full">
-          Depositar
-        </button>
-      </div>
     </aside>
   );
-};
+}
