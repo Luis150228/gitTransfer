@@ -1,17 +1,49 @@
+/* src/index.css */
 @import "tailwindcss";
 
-/* Santander theme vía @theme (v4) */
-@theme {
-  --color-santander-500: #EC0000;
-  --color-dark-900:      #121212;
-  --color-mid-500:       #5A5A5A;
-  --color-light-50:      #F5F5F5;
-  --color-white:         #FFFFFF;
+/* --- Tema LIGHT (por defecto) --- */
+:root {
+  --bg: #FFFFFF;         /* fondo app */
+  --fg: #121212;         /* texto principal */
+  --card: #FFFFFF;       /* tarjetas */
+  --muted: #F5F5F5;      /* superficies suaves */
+  --border: #EAEAEA;     /* borde sutil */
 
-  /* ejemplo: radios/sombras custom si quieres */
-  --radius-xl2: 1rem;
+  /* Marca (no cambia entre temas) */
+  --brand-500: #EC0000;  /* rojo Santander */
 }
 
-/* helpers opcionales */
-.card { @apply bg-white rounded-[var(--radius-xl2)] shadow p-4 transition-transform duration-300; }
-.card:hover { transform: translateY(-2px); }
+/* --- Tema DARK --- */
+[data-theme="dark"] {
+  --bg: #190207;         /* base oscuro vino */
+  --fg: #FFFFFF;         /* texto claro */
+  --card: #210912;       /* tarjeta oscura */
+  --muted: #5A082D;      /* superficies secundarias */
+  --border: #3A0D19;     /* borde tenue */
+}
+
+/* Layout base */
+html, body, #root { height: 100%; }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Helpers opcionales usados en tus componentes */
+.bg-app   { background: var(--bg); }
+.text-app { color: var(--fg); }
+.bg-card  { background: var(--card); }
+.bg-muted { background: var(--muted); }
+
+/* Tarjetas y botones (coherentes con el tema) */
+.card { @apply rounded-lg p-4 shadow; background: var(--card); }
+.card-border { border: 1px solid var(--border); }
+
+.btn-primary {
+  @apply px-4 py-2 rounded-md font-medium;
+  background: var(--brand-500);
+  color: #fff;
+}
+.btn-primary:hover { filter: brightness(0.95); }
