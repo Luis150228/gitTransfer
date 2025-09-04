@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Santander theme vía @theme (v4) */
+@theme {
+  --color-santander-500: #EC0000;
+  --color-dark-900:      #121212;
+  --color-mid-500:       #5A5A5A;
+  --color-light-50:      #F5F5F5;
+  --color-white:         #FFFFFF;
+
+  /* ejemplo: radios/sombras custom si quieres */
+  --radius-xl2: 1rem;
+}
+
+/* helpers opcionales */
+.card { @apply bg-white rounded-[var(--radius-xl2)] shadow p-4 transition-transform duration-300; }
+.card:hover { transform: translateY(-2px); }
