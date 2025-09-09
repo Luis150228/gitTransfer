@@ -1,0 +1,38 @@
+[
+    {
+        "fecha": "2025-09-05",
+        "recibidas": 414,
+        "atendidas": 411,
+        "abandonadas": 3,
+        "abandono_menos10": 2,
+        "prc_abandono": "0.24",
+        "tiempoAHT": "00:05:46",
+        "nummin": 142322,
+        "rangosem": "05 SEP - 11 SEP",
+        "anhio": 2025
+    },
+    {
+        "fecha": "2025-09-06",
+        "recibidas": 47,
+        "atendidas": 47,
+        "abandonadas": 0,
+        "abandono_menos10": 0,
+        "prc_abandono": "0.00",
+        "tiempoAHT": "00:05:04",
+        "nummin": 14306,
+        "rangosem": "05 SEP - 11 SEP",
+        "anhio": 2025
+    },
+    {
+        "fecha": "2025-09-07",
+        "recibidas": 7,
+        "atendidas": 6,
+        "abandonadas": 1,
+        "abandono_menos10": 0,
+        "prc_abandono": "14.29",
+        "tiempoAHT": "00:02:07",
+        "nummin": 767,
+        "rangosem": "05 SEP - 11 SEP",
+        "anhio": 2025
+    }
+]
