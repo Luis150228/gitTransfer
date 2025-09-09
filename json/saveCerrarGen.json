@@ -10,5 +10,34 @@
     "dateBegin": "2025-08-27 11:40 a.m.",
     "dateCut": "2025-08-28 01:42 p.m.",
     "bandejaAsignacion": "bandeja",
-    "notasResolucion": "https://github.com/Luis150228/eut_template.git"
+    "notasResolucion": "
+C356882@GTINFANC356882P MINGW64 /c/dev/eut_template (main)
+$ node -v
+v23.8.0
+
+C356882@GTINFANC356882P MINGW64 /c/dev/eut_template (main)
+$ corepack enable
+Internal Error: EPERM: operation not permitted, open 'C:\nvm\v23.8.0\pnpm'
+Error: EPERM: operation not permitted, open 'C:\nvm\v23.8.0\pnpm'
+
+C356882@GTINFANC356882P MINGW64 /c/dev/eut_template (main)
+$ corepack use pnpm@10.15.1
+Installing pnpm@10.15.1 in the project...
+Internal Error: Error when performing the request to https://registry.npmjs.org/pnpm/-/pnpm-10.15.1.tgz; for troubleshooting help, see https://github.com/nodejs/corepack#troubleshooting
+    at fetch (C:\nvm\v23.8.0\node_modules\corepack\dist\lib\corepack.cjs:21616:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchUrlStream (C:\nvm\v23.8.0\node_modules\corepack\dist\lib\corepack.cjs:21646:20)
+    at async download (C:\nvm\v23.8.0\node_modules\corepack\dist\lib\corepack.cjs:21769:18)
+    at async installVersion (C:\nvm\v23.8.0\node_modules\corepack\dist\lib\corepack.cjs:21861:55)
+    at async Engine.ensurePackageManager (C:\nvm\v23.8.0\node_modules\corepack\dist\lib\corepack.cjs:22323:32)
+    at async UseCommand.execute (C:\nvm\v23.8.0\node_modules\corepack\dist\lib\corepack.cjs:22927:32)
+    at async UseCommand.validateAndExecute (C:\nvm\v23.8.0\node_modules\corepack\dist\lib\corepack.cjs:19835:22)
+    at async _Cli.run (C:\nvm\v23.8.0\node_modules\corepack\dist\lib\corepack.cjs:20772:18)
+    at async Object.runMain (C:\nvm\v23.8.0\node_modules\corepack\dist\lib\corepack.cjs:23104:19)
+
+C356882@GTINFANC356882P MINGW64 /c/dev/eut_template (main)
+$ pnpm install
+bash: pnpm: command not found
+
+C356882@GTINFANC356882P MINGW64 /c/dev/eut_template (main)"
 }
