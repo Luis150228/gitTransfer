@@ -1,0 +1,442 @@
+"number","u_category","u_call_reason","opened_for","company","u_source","u_description","opened_at","sys_created_on","sys_updated_on","duration","opened_by","sys_updated_by","short_description","state"
+"IMS1686220","Asesoramiento","DESBLOQIVR","JORGE ALFONSO OLVERA GARDUÑO","Santander México","call","*** Este código solo es para usuarios que no escuchan adecuadamente la contraseña proporcionada por el sistema ***
+
+Describe la falla: USUARIO REPORTA QUE EL IVR NO LE PROPORCIONO CONTRASEÑA PARA WINDOWS LA LLAMADA INGRESO COMO DESBLOQUEO FALLIDO
+
+Nombre: EZEQUIEL BAEZ GALVAN 
+Expediente: s533866
+¿De donde llama el usuario? (linea fija / celular / Extensión): Ext
+Numero de donde nos llama:  2283648170
+¿Qué número marco para contactar al SDK?  70767
+
+
+Analista
+¿Por que medio trabajas? (VDI / VPN / En el corp blanco): Corp blanco 
+Documenta tu place:  159323
+¿Qué aplicativo intento desbloquear?: Windows","2025-09-08 08:33:42","2025-09-08 08:40:33","2025-09-08 08:40:38","416","JORGE ALFONSO OLVERA GARDUÑO","Z951056@santander.com.mx","SOS","Cerrado completo"
+"IMS1687939","Asesoramiento","DESDOMCORPORATIVO","ITZEL SICAIROS SALCIDO","Santander México","call","Usuario requiere desbloquear aplicativos contenidos en la cuenta Servicio_AD_CorporativoBanco
+
+* Información *
+- Usuario a desbloquear: C108463
+- Nombre del usuario: ITZEL SICAIROS SALCIDO
+- Aplicativo a desbloquear: WINDOWS 
+- ¿Ingreso como desbloqueo fallido? (si/no): NO 
+- ¿De dónde marca el usuario? (celular, extensión interna, teléfono fijo externo): CELULAR  
+- Si el IVR ya le había proporcionado clave al usuario ¿Se entendió bien la contraseña? (si/no): SI 
+
+SE REALIZA CONFERENCIA CON EL USUARIO YA QUE INDICA NO PUEDE CONECTAR LA VPN.
+USUARIO VALIDA, LE PERMITE CONECTAR LA VPN. 
+EXPEDIENTE	EMPRESA	CALLID	FECHA	HORA	DESCRIPCION	 	 
+C108463	Servicio_AD_CorporativoBanco	00PU73I6EKCBJ34G7E8ATD5AES0081T8	08-sep-25	05:44:28 p. m.	Desbloqueo Windows	 
+C108463	Servicio_AD_CorporativoBanco	01JABCMJT4C8B80M7I8ATD5AES02D3AU	08-sep-25	05:39:00 p. m.	Desbloqueo Windows
+
+
+
+Se desbloquea usuario y se valida en línea","2025-09-08 17:53:06","2025-09-08 18:13:42","2025-09-08 18:13:50","1244","MARIA ESTHELA LOPEZ ROSALES","Z927706@santander.com.mx","SOS","Cerrado completo"
+"IMS1687034","Asesoramiento","DESOPAC","FELIPE CORDERO RODRIGUEZ","Santander México","call","Usuario solicita el desbloqueo en el aplicativo OPICS AREAS CENTRALES.
+
+* Información *
+- Usuario a desbloquear (expediente con letra): c987887
+- Nombre del usuario: RICARDO EMMANUEL MARTINEZ ANTUNEZ
+
+* asignar *
+Atención por SERVICE DESK bajo llamada.","2025-09-08 11:31:32","2025-09-08 11:32:38","2025-09-08 11:32:42","70","FELIPE CORDERO RODRIGUEZ","Z932614@santander.com.mx","ADMINISTRACION DE USUARIOS","Cerrado completo"
+"IMS1686858","Asesoramiento","DESTRACK","ANA MARIA CRUZ MUÑOZ","Santander México","call","Usuario solicita el desbloqueo de: (solo deja el aplicativo que requiere el desbloqueo)
+- Tracking 2.0
+
+Usuario con letra: S644910
+Nombre: ANA MARIA CRUZ MUÑOZ
+¿Le indica que la contraseña expiro?: No
+
+Usuario solicita desbloqueo por cambio de puesto.
+Se valida que no puede iniciar sesión con Acceso corporativo (Se adjunta pantalla)
+Se le solicita consultar con ABC ya que no se encuentra en Tracking
+
+Si se trata de operadores de Call Center, el desbloqueo lo solicita un supervisor, consulta la lista de supervisores autorizados.","2025-09-08 10:39:13","2025-09-08 10:55:10","2025-09-08 10:55:25","972","SAMUEL ELIAS ZUÑIGA VIZCARRA","Z945586@santander.com.mx","SOS","Cerrado completo"
+"IMS1686335","Asesoramiento","GENERICO16","BEATRIZ ADRIANA GALINDO ALVARADO","Santander México","call","Describe la falla: Usuaria requiere ingresar por medio de Tracking 2.0, ingreso por medio del acceso corporativo
+
+
+    Expediente con letra: s031927
+    Extensión /celular:23390
+    Correo:NA
+    Segundo contacto:23390
+","2025-09-08 08:55:32","2025-09-08 09:05:07","2025-09-08 09:05:12","580","JOSAHANDY CHIMAL PEREZ","Z930657@santander.com.mx","SOFTWARE","Cerrado completo"
+"IMS1686726","Asesoramiento","GENERICO16","ALEXIS GUADALUPE ARGAEZ LOPEZ","Santander México","call","Describe la falla: no perimite ingresar a tracking 2.0 se valida ingreso desde santander now por acceso corportativo le permite ingresar, usuario tenia la liga guardada
+
+*** Prioridad 1 ********
+
+
+Número de equipos afectados: 1
+Impacto en sucursal o corporativo: sucursal 
+Problema en (plataforma/herramienta/ aplicación): tracking 2.0 
+Error en específico: no le permite ingresar a trakcing 2.0 
+Que le impide hacer: ingreso a tracking 
+CC (solo en sucursales): 5139
+Puesto (solo en sucursales, oficial / subdirector, cajeros, ejecutivos / director): Oficial de Caja
+Nombre de sucursal o corporativo con  piso y modulo: SUC Y VENTA PLAZA KUKULCAN QRO
+
+****** Prioridad 2  datos adicionales  ******
+
+    Expediente con letra: s034856
+    Extensión /celular:  22472
+    Correo:
+    Segundo contacto:
+","2025-09-08 10:09:24","2025-09-08 10:14:47","2025-09-08 10:14:51","327","JESSICA JAQUELINE GUERRERO VAZQUEZ","Z948939@santander.com.mx","SOFTWARE","Cerrado completo"
+"IMS1686989","Asesoramiento","GENERICO16","ANA CRISTINA GARCIA VAZQUEZ","Santander México","call","Describe la falla: Usuario solicita la contraseña de Tracking 2.0 y Courier, se le indica que el acceso ya va a realizarse por la opción de acceso corporativo y se valida el acceso. 
+
+    Nombre: ANA CRISTINA GARCIA VAZQUEZ
+    Expediente con letra: s574157
+    Extensión /celular: 23219","2025-09-08 11:16:10","2025-09-08 11:19:22","2025-09-08 11:19:27","197","JOSE LUIS CASTILLO BARRON","Z942058@santander.com.mx","SOFTWARE","Cerrado completo"
+"IMS1686654","Asesoramiento","GENERICO16","FATIMA PHOLETET LONA REVELES","Santander México","call","Describe la falla: Usuario solicita la contraseña de Tracking 2.0 y Courier, se le indica que el acceso ya va a realizarse por la opción de acceso corporativo y se valida el acceso. 
+
+    Nombre: FATIMA PHOLETET LONA REVELES
+    Expediente con letra: s022401
+    Extensión /celular: 50497
+","2025-09-08 09:53:52","2025-09-08 10:00:15","2025-09-08 10:00:23","391","JOSE LUIS CASTILLO BARRON","Z942058@santander.com.mx","SOFTWARE","Cerrado completo"
+"IMS1686888","Asesoramiento","GENERICO16","HEBER JONATHAN REYES FELIX","Santander México","call","Describe la falla: Usuario solicita contraseña para tracking 2.0  e indica que caduco la contraseña , se le solicita ingresar desde el apartado de acceso corporativo y usuario confirma que pudo ingresar sin problemas al aplicativo
+
+*** Prioridad 1 ********
+
+Ip:
+Hostname:
+Número de equipos afectados:
+Impacto en sucursal o corporativo:
+Problema en (plataforma/herramienta/ aplicación):
+Error en específico:
+Que le impide hacer:
+CC (solo en sucursales):
+Puesto (solo en sucursales, oficial / subdirector, cajeros, ejecutivos / director):
+Nombre de sucursal o corporativo con  piso y modulo:
+
+****** Prioridad 2  datos adicionales  ******
+
+    Expediente con letra:
+    Extensión /celular:
+    Correo:
+    Segundo contacto:
+","2025-09-08 10:47:57","2025-09-08 10:52:35","2025-09-08 10:52:40","283","ANTONIO GONZALEZ GUERRERO","Z948941@santander.com.mx","SOFTWARE","Cerrado completo"
+"IMS1687984","Asesoramiento","LIBEACIONCYBER","LYNABEL HERNANDEZ YESCAS","Santander México","call","Liberación de usuario en Cyber
+
+Usuario (NO documentes el N):
+Nombre: LYNABEL HERNANDEZ YESCAS
+Puesto :MEX Subgerente Recuperaciones
+Dominio: GFSSCORP
+¿Utilizo otro equipo para firmarse a Cyber? (Si/No):no
+¿Cerro correctamente la sesión? (Si/No):no
+¿El aplicativo se cerró de forma inesperada? (Si/No):si
+¿El aplicativo se queda cargando? (Si/No):no
+Otra (especifica): 
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 19:22:43","2025-09-08 19:26:30","2025-09-08 19:26:30","0","ISRAEL CORTINA OROPEZA","Z946606@santander.com.mx","SOS","Trabajo en curso"
+"IMS1687392","Asesoramiento","LIBEACIONCYBER","ANTONIO CORDERO BRITO","Santander México","call","""Liberacion de usuario en Cyber****
+****Usuario:c318092******
+**Nombre: ANTONIO CORDERO BRITO***
+*****Dominio: 
+¿Utilizo otro equipo para firmarse a Cyber? (Si/No):
+¿Cerro correctamente la sesión? (Si/No):
+¿El aplicativo se cerró de forma inesperada? (Si/No):
+¿El aplicativo se queda cargando? (Si/No):
+Otra (especifica): 
+Se libera usuario  y valida correcto acceso en línea""""""
+","2025-09-08 13:21:10","2025-09-08 13:21:31","2025-09-08 13:21:42","32","LUIS MIGUEL DE LA CRUZ GRANADOS","Z932611@santander.com.mx","SOS","Cerrado completo"
+"IMS1687783","Asesoramiento","LIBEACIONCYBER","JULIO CESAR GARCIA JARDON","Santander México","call","Liberación de usuario en Cyber
+
+Usuario (NO documentes el N): C320147
+Nombre:   JULIO CESAR GARCIA JARDON
+Puesto :ejecutivo de cobro 
+Dominio: gfsscorp 
+¿Utilizo otro equipo para firmarse a Cyber? (Si/No):no
+¿Cerro correctamente la sesión? (Si/No): no  
+¿El aplicativo se cerró de forma inesperada? (Si/No): no
+¿El aplicativo se queda cargando? (Si/No):si 
+Otra (especifica): 
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 16:08:52","2025-09-08 16:09:50","2025-09-08 16:09:55","63","PERLA PEREZ CRUZ","Z945591@santander.com.mx","SOS","Cerrado completo"
+"IMS1684972","Asesoramiento","LIBEACIONCYBER","JUAN RAMON JIMENEZ CASTILLO","Santander México","call","Liberación de usuario en Cyber
+
+Usuario (NO documentes el N): C318070
+Nombre: JUAN RAMON JIMENEZ CASTILLO
+Puesto : EJECUTIVO RECUPERACIONES
+Dominio: GFSCORP/
+¿Utilizo otro equipo para firmarse a Cyber? (Si/No):NO
+¿Cerro correctamente la sesión? (Si/No):NO
+¿El aplicativo se cerró de forma inesperada? (Si/No):NO
+¿El aplicativo se queda cargando? (Si/No):NO
+Otra (especifica): 
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-06 10:28:50","2025-09-06 10:30:38","2025-09-06 10:30:47","117","FELIPE CORDERO RODRIGUEZ","Z932614@santander.com.mx","SOS","Cerrado completo"
+"IMS1686465","Asesoramiento","LIBERACIONTF","GREGORIO MORENO LOPEZ","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario:S068299
+Nombre: MORENO LOPEZ GREGORIO
+Puesto (Subdirector, Oficial, ejecutivo, etc.): Banquero de Servicios
+¿Utilizo otro equipo para firmarse a TF? (Si/No):SI
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No): NO
+¿El usuario trabaja en dos centros de costos? (Si/No): SI
+¿El usuario es operativo volante? (Si/No): NO
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 09:17:19","2025-09-08 09:18:51","2025-09-08 09:18:57","99","JOSAHANDY CHIMAL PEREZ","Z930657@santander.com.mx","SOS","Cerrado completo"
+"IMS1686486","Asesoramiento","LIBERACIONTF","PAOLA HERNANDEZ DIAZ","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario:S053415
+Nombre: PAOLA HERNANDEZ DIAZ
+Puesto (Subdirector, Oficial, ejecutivo, etc.):Banquero de Servicio Sucursal
+¿Utilizo otro equipo para firmarse a TF? (Si/No):SI
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No):NO
+¿El usuario trabaja en dos centros de costos? (Si/No):NO
+¿El usuario es operativo volante? (Si/No):NO
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 09:21:40","2025-09-08 09:22:42","2025-09-08 09:23:03","83","FATIMA GARCIA MANDUJANO","Z921791@santander.com.mx","SOS","Cerrado completo"
+"IMS1686859","Asesoramiento","LIBERACIONTF","ITZEL MANRIQUE ARROYO","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Nombre: MANRIQUE ARROYO ITZEL
+Expediente: s430502
+Puesto (Subdirector, Oficial, ejecutivo, etc.): Banquero de Servicio Sucursal
+¿Utilizo otro equipo para firmarse a TF? (Si/No): Si
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No): No
+¿El usuario trabaja en dos centros de costos? (Si/No): Si
+¿El usuario es operativo volante? (Si/No): No
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 10:39:14","2025-09-08 10:40:15","2025-09-08 10:40:20","66","JUAN ANTONIO MORALES BALDERAS","Z936831@santander.com.mx","SOS","Cerrado completo"
+"IMS1689060","Asesoramiento","LIBERACIONTF","ROCIO ROMO RIVAS","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario:n400656
+Nombre: ROMO RIVAS,ROCIO
+Puesto (Subdirector, Oficial, ejecutivo, etc.): Banquero de Servicio Sucursal
+¿Utilizo otro equipo para firmarse a TF? (Si/No): si
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No): no
+¿El usuario trabaja en dos centros de costos? (Si/No): si
+¿El usuario es operativo volante? (Si/No): no
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-09 08:40:54","2025-09-09 08:41:56","2025-09-09 08:42:07","74","ALMA ROSA GOMEZ OTILIO","Z929982@santander.com.mx","SOS","Cerrado completo"
+"IMS1684970","Asesoramiento","LIBERACIONTF","KARLA MONROY GALINDO","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario: n787588
+Nombre: KARLA MONROY GALINDO
+Puesto (Subdirector, Oficial, ejecutivo, etc.): Operativo Volante
+¿Utilizo otro equipo para firmarse a TF? (Si/No): Si
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No): Si
+¿El usuario trabaja en dos centros de costos? (Si/No): Si
+¿El usuario es operativo volante? (Si/No): Si
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-06 10:00:55","2025-09-06 10:12:47","2025-09-06 10:12:51","716","CRISTINA GISSEL CRESPO GOMEZ","Z945589@santander.com.mx","SOS","Cerrado completo"
+"IMS1686260","Asesoramiento","LIBERACIONTF","ROCIO ROMO RIVAS","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario: n400656
+Nombre:  ROCIO ROMO RIVAS
+Puesto (Subdirector, Oficial, ejecutivo, etc.): Banquero de Servicio Sucursal
+¿Utilizo otro equipo para firmarse a TF? (Si/No): Si
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No): Si
+¿El usuario trabaja en dos centros de costos? (Si/No): Si
+¿El usuario es operativo volante? (Si/No): No
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 08:37:39","2025-09-08 08:40:13","2025-09-08 08:40:18","159","RODRIGO ALBERTO LUNA GUTIERREZ","Z951060@santander.com.mx","SOS","Cerrado completo"
+"IMS1686996","Asesoramiento","LIBERACIONTF","LIZETH JUAREZ BOLAÑOS","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario:N298222
+Nombre: LIZETH JUAREZ BOLAÑOS
+Puesto (Subdirector, Oficial, ejecutivo, etc.): SBD
+¿Utilizo otro equipo para firmarse a TF? (Si/No):SI
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No):SI
+¿El usuario trabaja en dos centros de costos? (Si/No):SI
+¿El usuario es operativo volante? (Si/No):NO
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 11:18:26","2025-09-08 11:19:05","2025-09-08 11:21:28","182","FELIPE CORDERO RODRIGUEZ","Z932614@santander.com.mx","SOS","Cerrado completo"
+"IMS1686853","Asesoramiento","LIBERACIONTF","JESUS LOPEZ CHAVEZ","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario: N783332
+Nombre:  JESUS LOPEZ CHAVEZ
+Puesto (Subdirector, Oficial, ejecutivo, etc.): SUBDIRECTOR
+¿Utilizo otro equipo para firmarse a TF? (Si/No): SI 
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No): SI 
+¿El usuario trabaja en dos centros de costos? (Si/No): SI 
+¿El usuario es operativo volante? (Si/No): NO 
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 10:37:37","2025-09-08 10:38:16","2025-09-08 10:38:33","56","MARIA ESTHELA LOPEZ ROSALES","Z927706@santander.com.mx","SOS","Cerrado completo"
+"IMS1687854","Asesoramiento","LIBERACIONTF","DAVID EDUARDO VILCHIS RODRIGUEZ","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario:S018059
+Nombre: VILCHIS RODRIGUEZ DAVID EDUARDO
+Puesto (Subdirector, Oficial, ejecutivo, etc.):Banquero servicio
+¿Utilizo otro equipo para firmarse a TF? (Si/No):si
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No):No
+¿El usuario trabaja en dos centros de costos? (Si/No):si
+¿El usuario es operativo volante? (Si/No):si
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 16:48:27","2025-09-08 16:55:56","2025-09-08 16:56:02","455","JUAN CARLOS ORTIZ GAMIÑO","Z985704@santander.com.mx","SOS","Cerrado completo"
+"IMS1686800","Asesoramiento","LIBERACIONTF","MONICA GUADALUPE LEIJA ALEMAN","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario: n796778
+Nombre: MONICA GUADALUPE LEIJA ALEMAN
+Puesto (Subdirector, Oficial, ejecutivo, etc.):Director  
+¿Utilizo otro equipo para firmarse a TF? (Si/No): Si
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No): Si
+¿El usuario trabaja en dos centros de costos? (Si/No): Si
+¿El usuario es operativo volante? (Si/No): No
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 10:24:45","2025-09-08 10:27:45","2025-09-08 10:27:50","186","JOSE LUIS CASTILLO BARRON","Z942058@santander.com.mx","SOS","Cerrado completo"
+"IMS1686433","Asesoramiento","LIBERACIONTF","FATIMA PHOLETET LONA REVELES","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario: n846823
+Nombre: FATIMA PHOLETET LONA REVELES
+Puesto (Subdirector, Oficial, ejecutivo, etc.): Banquero de Servicio Sucursal
+¿Utilizo otro equipo para firmarse a TF? (Si/No):
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No):si
+¿El usuario trabaja en dos centros de costos? (Si/No):si
+¿El usuario es operativo volante? (Si/No):
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 09:12:26","2025-09-08 09:13:53","2025-09-08 09:14:02","96","JOSE LUIS RODRIGUEZ VAZQUEZ","Z948938@santander.com.mx","SOS","Cerrado completo"
+"IMS1687336","Asesoramiento","LIBERACIONTF","OSCAR ADRIAN LOPEZ MONTERO","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario: n879819
+Nombre:  LOPEZ MONTERO OSCAR ADRIAN
+Puesto (Subdirector, Oficial, ejecutivo, etc.): Banquero de Servicio Sucursal
+¿Utilizo otro equipo para firmarse a TF? (Si/No): SI
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No): NO
+¿El usuario trabaja en dos centros de costos? (Si/No): SI
+¿El usuario es operativo volante? (Si/No): SI
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 13:07:02","2025-09-08 13:07:51","2025-09-08 13:08:44","102","MARISOL BRITO ARMAS","Z949984@santander.com.mx","SOS","Cerrado completo"
+"IMS1687116","Asesoramiento","LIBERACIONTF","ANA KAREN GENESIS CANO VEGA","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario:S025185
+Nombre: CANO VEGA ANA KAREN GENESIS
+Puesto (Subdirector, Oficial, ejecutivo, etc.): Banquera de Servicios
+¿Utilizo otro equipo para firmarse a TF? (Si/No): SI
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No):NO
+¿El usuario trabaja en dos centros de costos? (Si/No):SI
+¿El usuario es operativo volante? (Si/No):NO
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 11:58:06","2025-09-08 12:01:46","2025-09-08 12:01:51","225","JOSAHANDY CHIMAL PEREZ","Z930657@santander.com.mx","SOS","Cerrado completo"
+"IMS1686425","Asesoramiento","LIBERACIONTF","VIRIDIANA RIVERA HERNANDEZ","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario: S885863
+Nombre:  VIRIDIANA RIVERA HERNANDEZ
+Puesto (Subdirector, Oficial, ejecutivo, etc.): Banquero de servicio
+¿Utilizo otro equipo para firmarse a TF? (Si/No): si
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No): No
+¿El usuario trabaja en dos centros de costos? (Si/No): Si
+¿El usuario es operativo volante? (Si/No): No
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 09:11:03","2025-09-08 09:15:10","2025-09-08 09:15:19","256","JESSICA DANIELA MEZA SOTO","Z985703@santander.com.mx","SOS","Cerrado completo"
+"IMS1684966","Asesoramiento","LIBERACIONTF","DAVID VALDES GASCA","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Nombre: VALDES GASCA DAVID
+Expediente: s051591
+Puesto (Subdirector, Oficial, ejecutivo, etc.): Banquero de Servicio Sucursal
+¿Utilizo otro equipo para firmarse a TF? (Si/No): Si
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No): No
+¿El usuario trabaja en dos centros de costos? (Si/No): Si
+¿El usuario es operativo volante? (Si/No): No
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-06 09:42:01","2025-09-06 09:46:33","2025-09-06 09:46:37","276","JUAN ANTONIO MORALES BALDERAS","Z936831@santander.com.mx","SOS","Cerrado completo"
+"IMS1686850","Asesoramiento","LIBERACIONTF","CITLALLI RICARDEZ OSORIO","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario: n453994
+Nombre: CITLALLI RICARDEZ OSORIO
+Puesto (Subdirector, Oficial, ejecutivo, etc.): Subdirector
+¿Utilizo otro equipo para firmarse a TF? (Si/No): Si
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No): Si
+¿El usuario trabaja en dos centros de costos? (Si/No): No
+¿El usuario es operativo volante? (Si/No): Si
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 10:36:33","2025-09-08 10:45:44","2025-09-08 10:45:55","562","JOSE LUIS CASTILLO BARRON","Z942058@santander.com.mx","SOS","Cerrado completo"
+"IMS1686383","Asesoramiento","LIBERACIONTF","JHOANNY LOPEZ MONTEALVO","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario:LOPEZ MONTEALVO JHOANNY
+Nombre: S273787
+Puesto (Subdirector, Oficial, ejecutivo, etc.):Banquero de servicios
+¿Utilizo otro equipo para firmarse a TF? (Si/No):si
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No):no
+¿El usuario trabaja en dos centros de costos? (Si/No):si
+¿El usuario es operativo volante? (Si/No):no
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 09:04:39","2025-09-08 09:07:25","2025-09-08 09:07:33","174","JUAN CARLOS ORTIZ GAMIÑO","Z985704@santander.com.mx","SOS","Cerrado completo"
+"IMS1686421","Asesoramiento","LIBERACIONTF","LUIS EDUARDO ORTIZ ANAYA","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario: s024161
+Nombre:  LUIS EDUARDO ORTIZ ANAYA
+Puesto (Subdirector, Oficial, ejecutivo, etc.): sbd
+¿Utilizo otro equipo para firmarse a TF? (Si/No): no
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No): no
+¿El usuario trabaja en dos centros de costos? (Si/No): si
+¿El usuario es operativo volante? (Si/No):no
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 09:10:16","2025-09-08 09:10:34","2025-09-08 09:10:40","24","ALAIN PAGOLA RENDON","Z934089@santander.com.mx","SOS","Cerrado completo"
+"IMS1686552","Asesoramiento","LIBERACIONTF","ITZEL MANRIQUE ARROYO","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario: n870425
+Nombre: ITZEL MANRIQUE ARROYO
+Puesto (Subdirector, Oficial, ejecutivo, etc.): Subdirector
+¿Utilizo otro equipo para firmarse a TF? (Si/No): Si
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No): Si
+¿El usuario trabaja en dos centros de costos? (Si/No): SI
+¿El usuario es operativo volante? (Si/No): No
+
+Se libera usuario y valida correcto acceso en línea","2025-09-08 09:34:38","2025-09-08 09:40:30","2025-09-08 09:40:37","359","JOSE LUIS CASTILLO BARRON","Z942058@santander.com.mx","SOS","Cerrado completo"
+"IMS1687908","Asesoramiento","LIBERACIONTF","OLIVIA RODRIGUEZ PAZOS","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario: N761732
+Nombre:  OLIVIA RODRIGUEZ PAZOS
+Puesto (Subdirector, Oficial, ejecutivo, etc.): BANQUERO DE SERVICIO 
+¿Utilizo otro equipo para firmarse a TF? (Si/No): SI 
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No): SI 
+¿El usuario trabaja en dos centros de costos? (Si/No): SI 
+¿El usuario es operativo volante? (Si/No): SI 
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 17:18:58","2025-09-08 17:20:07","2025-09-08 17:20:13","75","MARIA ESTHELA LOPEZ ROSALES","Z927706@santander.com.mx","SOS","Cerrado completo"
+"IMS1684973","Asesoramiento","LIBERACIONTF","SUSANA SALADO MEJIA","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario: n460367
+Nombre: SUSANA SALADO MEJIA
+Puesto (Subdirector, Oficial, ejecutivo, etc.):Subdirector
+¿Utilizo otro equipo para firmarse a TF? (Si/No): Si
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No): Si
+¿El usuario trabaja en dos centros de costos? (Si/No): No
+¿El usuario es operativo volante? (Si/No): No
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-06 10:30:43","2025-09-06 10:49:28","2025-09-06 10:49:33","1130","JOSE LUIS CASTILLO BARRON","Z942058@santander.com.mx","SOS","Cerrado completo"
+"IMS1686747","Asesoramiento","LIBERACIONTF","IVAN GETHSEMANI MOLINA CHAVEZ","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario: n754810
+Nombre: IVAN GETHSEMANI MOLINA CHAVEZ
+Puesto (Subdirector, Oficial, ejecutivo, etc.): Banquero Select 
+¿Utilizo otro equipo para firmarse a TF? (Si/No): Si
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No): Si 
+¿El usuario trabaja en dos centros de costos? (Si/No): No 
+¿El usuario es operativo volante? (Si/No): No
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 10:14:10","2025-09-08 10:18:57","2025-09-08 10:19:16","306","JOSE LUIS CASTILLO BARRON","Z942058@santander.com.mx","SOS","Cerrado completo"
+"IMS1686394","Asesoramiento","LIBERACIONTF","LUIS EDUARDO ORTIZ ANAYA","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario: s024161
+Nombre:  LUIS EDUARDO ORTIZ ANAYA
+Puesto (Subdirector, Oficial, ejecutivo, etc.): sbd
+¿Utilizo otro equipo para firmarse a TF? (Si/No): no
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No): no
+¿El usuario trabaja en dos centros de costos? (Si/No): si
+¿El usuario es operativo volante? (Si/No):no
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 09:05:42","2025-09-08 09:07:46","2025-09-08 09:07:51","129","ALAIN PAGOLA RENDON","Z934089@santander.com.mx","SOS","Cerrado completo"
+"IMS1686847","Asesoramiento","LIBERACIONTF","DIANA LIZBETH LOPEZ MARQUEZ","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario:S379799
+Nombre: LOPEZ MARQUEZ DIANA LIZBETH
+Puesto (Subdirector, Oficial, ejecutivo, etc.): Banquero de Servicio
+¿Utilizo otro equipo para firmarse a TF? (Si/No):SI
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No):NO
+¿El usuario trabaja en dos centros de costos? (Si/No):SI
+¿El usuario es operativo volante? (Si/No):NO
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-08 10:35:52","2025-09-08 10:40:40","2025-09-08 10:40:47","295","JOSAHANDY CHIMAL PEREZ","Z930657@santander.com.mx","SOS","Cerrado completo"
+"IMS1684982","Asesoramiento","LIBERACIONTF","MIGUEL EDUARDO HERNANDEZ SANDOVAL","Santander México","call","Liberación de usuario en plataforma (TF)
+
+Usuario: n755177
+Nombre: MIGUEL EDUARDO HERNANDEZ SANDOVAL
+Puesto (Subdirector, Oficial, ejecutivo, etc.): Banquero de Servicio Sucursal
+¿Utilizo otro equipo para firmarse a TF? (Si/No):
+¿Se firmo en plataforma de mostrador y luego en negocios o viceversa? (Si/No): No
+¿El usuario trabaja en dos centros de costos? (Si/No): Si
+¿El usuario es operativo volante? (Si/No): No, Banquero de Servicio Sucursal
+
+Se libera usuario  y valida correcto acceso en línea","2025-09-06 11:16:47","2025-09-06 11:18:51","2025-09-06 11:18:55","128","CRISTINA GISSEL CRESPO GOMEZ","Z945589@santander.com.mx","SOS","Cerrado completo"

@@ -1,0 +1,1371 @@
+﻿folio,resuelto,ubicacion,grupo_asignado,zona,tiempo,estatus,inhibidor,comentarios,reporte,semanal,inhibidor_codigo,codigodescripcion,descripcion_resolutor,comentarios_resolutor,procede
+SCTASK19994918,2025-08-25 12:14:01,,EUT Resolutores SDK,0,1623,VENCIDO,VS,"2025-08-25 12:14:01 - ISRAEL ASCENCIO CONTRERAS (Observaciones adicionales)
+ATENCION ASESORIA
+PETICION REAL: 	ACTIVACION DE GEOLOCALIZACION 
+VOBO:	IGNACIO RUBIO FLORES
+ING: 	ISRAEL ASCENCIO CONTRERAS
+SOLUCION: 	CANCELADO - USR NO LOCALIZADO EN NUMERO DE CELULAR DOCUMENTADO 
+ZONA: 	0
+CC: 	ED024
+SUC: 	EDIF. CORPORATIVO CTOS QUERETARO
+VERSION DE SO:	W11
+Versión SDK Click	2
+Dominio:	SANTANDERSERFIN
+HOSTNAME: 	NA
+IP:	NA
+
+2025-08-22 13:13:47 - ISRAEL ASCENCIO CONTRERAS (Observaciones adicionales)
+SE MARCA NUMERO DE CELULAR 442 186 8508 NO HAY RESPUESTA FAVOR DE COMUNICARSE A LA EXT 70767 O NUMERO DIRECTO 5551741101 OPCION 3 PARA CONTINUAR CON ATENCION DE REPORTE
+
+2025-08-22 13:13:27 - ISRAEL ASCENCIO CONTRERAS (Notas de trabajo)
+Archivo adjunto SCTASK19994918-1.png ha sido agregado por ISRAEL ASCENCIO CONTRERAS
+
+2025-08-21 17:12:48 - ISRAEL ASCENCIO CONTRERAS (Observaciones adicionales)
+SE MARCA NUMERO DE CELULAR 442 186 8508 NO HAY RESPUESTA FAVOR DE COMUNICARSE A LA EXT  70767 O NUMERO DIRECTO 5551741101 OPCION 3 PARA CONTINUAR CON ATENCION DE REPORTE
+
+2025-08-21 17:11:31 - ISRAEL ASCENCIO CONTRERAS (Notas de trabajo)
+Archivo adjunto SCTASK19994918.png ha sido agregado por ISRAEL ASCENCIO CONTRERAS
+
+2025-08-21 11:46:23 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+IP: 180.51.149.29
+Hostname: EXNEORIZ969785P
+
+2025-08-21 11:46:23 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+IP: 180.51.149.29
+Hostname: EXNEORIZ969785P
+
+2025-08-21 11:17:36 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+FAVOR DE DOCUMENTAR NOMBRE DE EQUIPO (HOSTNAME)
+
+2025-08-21 11:17:36 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+FAVOR DE DOCUMENTAR NOMBRE DE EQUIPO (HOSTNAME)
+
+2025-08-21 10:10:31 - IGNACIO RUBIO FLORES (Notas de trabajo)
+# Work notes from RITM017273798: 
+21/08/2025 10:10:30 - IGNACIO RUBIO FLORES (Notas de trabajo)
+Actual Start Date is: 21/08/2025 10:10:29
+
+
+
+",SDK_SOL,22 AGO - 28 AGO,Aplica,,,"Folio Cancelado, usuario no localizado, SLA vencido para la atención.",procede
+SCTASK19997237,2025-08-25 13:56:42,,EUT Resolutores SDK,0,1554,VENCIDO,VS,"2025-08-25 13:56:21 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+*** NO SE REALIZA CONEXION REMOTA *** 
+SCRIPT DE CANCELACION POR FALTA DE ESTADO CANCELADO 
+
+ATENCION REAL:   INSTALACIÓN DE LIBRERÍAS
+ING: CRISTINA GISSEL CRESPO GÓMEZ 
+MOTIVO: FOLIO EVOLUCIONADO YA QUE NO SE DOCUMENTÓ POR PARTE DEL USUARIO DENTRO DE LAS 16 HRS HABILES , FAVOR DE ADJUNTAR VOBO POR PARTE DE CISO PARA DESCARGAR LIBRERÍAS Y PARA BAJAR SERVICIO DE UMBRELLA. FAVOR DE GENERAR FOLIO CON LA SIGUIENTE CATEGORÍA:
+
+https://santander.service-now.com/santecitsm 
+
+* INICIO 
+* CATALOG MX 
+* SOFTWARE 
+* INSTALACIÓN DE SOFTWARE 
+
+LIGA SERVICE NOW URL: 
+https://santander.service-now.com/santecitsm?id=sc_cat_item&sys_id=61fba17b1b66589062ce85506e4bcbe1&sysparm_category=1bec722bdb929c50ec3fa5305b96195d  
+
+NOTA: NO SE REALIZAN INSTALACIONES O CONFIGURACIONES SIN PREVIA AUTORIZACIÓN
+
+2025-08-25 13:56:21 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+*** NO SE REALIZA CONEXION REMOTA *** 
+SCRIPT DE CANCELACION POR FALTA DE ESTADO CANCELADO 
+
+ATENCION REAL:   INSTALACIÓN DE LIBRERÍAS
+ING: CRISTINA GISSEL CRESPO GÓMEZ 
+MOTIVO: FOLIO EVOLUCIONADO YA QUE NO SE DOCUMENTÓ POR PARTE DEL USUARIO DENTRO DE LAS 16 HRS HABILES , FAVOR DE ADJUNTAR VOBO POR PARTE DE CISO PARA DESCARGAR LIBRERÍAS Y PARA BAJAR SERVICIO DE UMBRELLA. FAVOR DE GENERAR FOLIO CON LA SIGUIENTE CATEGORÍA:
+
+https://santander.service-now.com/santecitsm 
+
+* INICIO 
+* CATALOG MX 
+* SOFTWARE 
+* INSTALACIÓN DE SOFTWARE 
+
+LIGA SERVICE NOW URL: 
+https://santander.service-now.com/santecitsm?id=sc_cat_item&sys_id=61fba17b1b66589062ce85506e4bcbe1&sysparm_category=1bec722bdb929c50ec3fa5305b96195d  
+
+NOTA: NO SE REALIZAN INSTALACIONES O CONFIGURACIONES SIN PREVIA AUTORIZACIÓN
+
+2025-08-22 13:30:49 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+***FOLIO PENDIENTE DE INFORMACIÓN*** 
+***FOLIO EN ESPERA DEL SOLICITANTE*** 
+
+Para proceder con esta solicitud favor de solicitar el Vo. Bo del área de CISO ingresando a la siguiente liga:  
+
+https://forms.office.com/pages/responsepage.aspx?id=AlpZNW1NrESZ4fmrTNhy2y2j5a9WhNdDihfY-wkxOJtUODJKVTEzR1lETjBTNVZJMFpLU1E5OUY4Ti4u&web=1&wdLOR=c83A5DB56-A75D-44CC-86B8-9D90770330A6 
+
+En caso de presentar problemas con la liga, favor de comunicarse con los autorizadores vía correo:  
+
+(CARLOS OMAR GARCIA LEYVA <carlosgarcial@santander.com.mx> ALBERTO DE JESUS VALLADARES <albde@empresaexterna.com.mx> GUSTAVO ARMANDO LORETO CASTRO <gloreto@empresaexterna.com.mx > EDGAR ALEJANDRO ROSALES AGUILAR <edgrosales@gruposantander.com.mx> o RICARDO ANDRES CARMONA DOMINGUEZ <ricarmona@santander.com.mx> Notificaciones CISO Mexico <notiCISOMX@santander.com.mx>) anexando el HOSTNAME de su equipo. 
+
+*** NOTA Favor de no copiar al SDK en los correos al solicitar VoBo a las áreas correspondientes*** 
+
+Una vez cuente con las aprobaciones correspondientes deberá adjuntar el correo de aprobación al folio, se cuentan con 16 horas hábiles para adjuntar la información 
+
+NOTA: NO SE REALIZAN INSTALACIONES O CONFIGURACIONES SIN PREVIA AUTORIZACIÓN
+
+2025-08-22 13:30:49 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+***FOLIO PENDIENTE DE INFORMACIÓN*** 
+***FOLIO EN ESPERA DEL SOLICITANTE*** 
+
+Para proceder con esta solicitud favor de solicitar el Vo. Bo del área de CISO ingresando a la siguiente liga:  
+
+https://forms.office.com/pages/responsepage.aspx?id=AlpZNW1NrESZ4fmrTNhy2y2j5a9WhNdDihfY-wkxOJtUODJKVTEzR1lETjBTNVZJMFpLU1E5OUY4Ti4u&web=1&wdLOR=c83A5DB56-A75D-44CC-86B8-9D90770330A6 
+
+En caso de presentar problemas con la liga, favor de comunicarse con los autorizadores vía correo:  
+
+(CARLOS OMAR GARCIA LEYVA <carlosgarcial@santander.com.mx> ALBERTO DE JESUS VALLADARES <albde@empresaexterna.com.mx> GUSTAVO ARMANDO LORETO CASTRO <gloreto@empresaexterna.com.mx > EDGAR ALEJANDRO ROSALES AGUILAR <edgrosales@gruposantander.com.mx> o RICARDO ANDRES CARMONA DOMINGUEZ <ricarmona@santander.com.mx> Notificaciones CISO Mexico <notiCISOMX@santander.com.mx>) anexando el HOSTNAME de su equipo. 
+
+*** NOTA Favor de no copiar al SDK en los correos al solicitar VoBo a las áreas correspondientes*** 
+
+Una vez cuente con las aprobaciones correspondientes deberá adjuntar el correo de aprobación al folio, se cuentan con 16 horas hábiles para adjuntar la información 
+
+NOTA: NO SE REALIZAN INSTALACIONES O CONFIGURACIONES SIN PREVIA AUTORIZACIÓN
+
+2025-08-22 12:57:36 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+El número documentando no coincide la lada de México , se manda mensaje por teams y no se recibe respuesta
+
+2025-08-22 12:57:36 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+El número documentando no coincide la lada de México , se manda mensaje por teams y no se recibe respuesta
+
+2025-08-22 12:10:58 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+
+FAVOR DE DOCUMENTAR ALGÚN OTRO NÚMERO TELEFÓNICO O EXTENSIÓN PARA PODER COMUNICARNOS Y VALIDAR EL TEMA
+
+2025-08-22 12:10:58 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+
+FAVOR DE DOCUMENTAR ALGÚN OTRO NÚMERO TELEFÓNICO O EXTENSIÓN PARA PODER COMUNICARNOS Y VALIDAR EL TEMA
+
+2025-08-21 16:45:56 - JAVIER ANGEL MOYA MORALES (Notas de trabajo)
+Buenas tardes, se asigna al service desk para su revisión.
+
+2025-08-21 13:02:15 - CARLOS ANDRES TOBAR PASTEN (Notas de trabajo)
+# Work notes from RITM017275950: 
+21/08/2025 21:02:14 - CARLOS ANDRES TOBAR PASTEN (Work notes)
+Actual Start Date is: 21/08/2025 21:02:13
+
+
+
+",SDK_SOL,22 AGO - 28 AGO,Aplica,,,"Folio Cancelado, usuario no localizado, SLA vencido para la atención.",procede
+SCTASK19981184,2025-08-22 11:40:39,,EUT Resolutores SDK,0,1541,VENCIDO,VS,"2025-08-22 11:40:32 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+*** NO SE REALIZA CONEXION REMOTA *** 
+SCRIPT DE CANCELACION POR FALTA DE ESTADO CANCELADO 
+
+ATENCION REAL:  FALLAS EN POSTMAN
+
+ING: CRISTINA GISSEL CRESPO GÓMEZ 
+
+MOTIVO: Se cancela folio ya que el usuario no confirmo que es lo que se tenía que validar del error de  acuerdo a la llamada que se tuvo con el usuario, SLA vencido para la atención.
+
+2025-08-22 11:40:32 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+*** NO SE REALIZA CONEXION REMOTA *** 
+SCRIPT DE CANCELACION POR FALTA DE ESTADO CANCELADO 
+
+ATENCION REAL:  FALLAS EN POSTMAN
+
+ING: CRISTINA GISSEL CRESPO GÓMEZ 
+
+MOTIVO: Se cancela folio ya que el usuario no confirmo que es lo que se tenía que validar del error de  acuerdo a la llamada que se tuvo con el usuario, SLA vencido para la atención.
+
+2025-08-21 16:51:42 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+En revisión
+
+2025-08-20 16:26:17 - MARICELA CORONA MENDEZ (Notas de trabajo)
+# Work notes from RITM017261513: 
+21/08/2025 00:26:17 - MARICELA CORONA MENDEZ (Work notes)
+Attachment Evidencia_Error_Postman.png has been attached by MARICELA CORONA MENDEZ
+
+
+
+2025-08-20 11:29:54 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+***FOLIO PENDIENTE DE INFORMACIÓN***
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+FAVOR DE ADJUNTAR PANTALLA DEL ERROR QUE SE MUESTRA
+
+2025-08-20 11:29:54 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+***FOLIO PENDIENTE DE INFORMACIÓN***
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+FAVOR DE ADJUNTAR PANTALLA DEL ERROR QUE SE MUESTRA
+
+2025-08-20 10:59:05 - MARICELA CORONA MENDEZ (Notas de trabajo)
+# Work notes from RITM017261513: 
+20/08/2025 18:59:05 - MARICELA CORONA MENDEZ (Work notes)
+Actual Start Date is: 20/08/2025 18:59:04
+
+
+
+",SDK_SOL,22 AGO - 28 AGO,Aplica,,,"Folio Cancelado, usuario no localizado, SLA vencido para la atención.",procede
+SCTASK19981341,2025-08-22 11:44:12,,EUT Resolutores SDK,0,1533,VENCIDO,VS,"2025-08-22 11:44:01 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+*** NO SE REALIZA CONEXION REMOTA *** 
+SCRIPT DE CANCELACION POR FALTA DE ESTADO CANCELADO 
+
+ATENCION REAL:  INSTALACIÓN DE CyGWin64
+
+ING: CRISTINA GISSEL CRESPO GÓMEZ 
+
+MOTIVO: SE PROCEDE A CANCELACIÓN DE FOLIO YA QUE EL ÁREA DE CISO RECHAZÓ LA AUTRORIZACIÓN PARA ESTA INSTALACIÓN.
+
+2025-08-22 11:44:01 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+*** NO SE REALIZA CONEXION REMOTA *** 
+SCRIPT DE CANCELACION POR FALTA DE ESTADO CANCELADO 
+
+ATENCION REAL:  INSTALACIÓN DE CyGWin64
+
+ING: CRISTINA GISSEL CRESPO GÓMEZ 
+
+MOTIVO: SE PROCEDE A CANCELACIÓN DE FOLIO YA QUE EL ÁREA DE CISO RECHAZÓ LA AUTRORIZACIÓN PARA ESTA INSTALACIÓN.
+
+2025-08-21 11:04:09 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+***FOLIO PENDIENTE DE INFORMACIÓN***
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+Buen día
+
+Para proceder con esta solicitud de instalación, favor de solicitar el Vo. Bo del área de CISO ingresando a la siguiente liga:
+
+https://forms.office.com/pages/responsepage.aspx?id=AlpZNW1NrESZ4fmrTNhy2y2j5a9WhNdDihfY-wkxOJtUODJKVTEzR1lETjBTNVZJMFpLU1E5OUY4Ti4u&web=1&wdLOR=c83A5DB56-A75D-44CC-86B8-9D90770330A6
+
+En caso de presentar problemas con la liga, favor de comunicarse con los autorizadores vía correo:
+
+(CARLOS OMAR GARCIA LEYVA <carlosgarcial@santander.com.mx> ALBERTO DE JESUS VALLADARES <albde@empresaexterna.com.mx> GUSTAVO ARMANDO LORETO CASTRO <gloreto@empresaexterna.com.mx > EDGAR ALEJANDRO ROSALES AGUILAR <edgrosales@gruposantander.com.mx> o RICARDO ANDRES CARMONA DOMINGUEZ <ricarmona@santander.com.mx> Notificaciones CISO Mexico <notiCISOMX@santander.com.mx>) anexando el HOSTNAME de su equipo.
+
+*** NOTA Favor de no copiar al SDK en los correos al solicitar VoBo a las áreas correspondientes***
+
+Una vez cuente con las aprobaciones correspondientes deberá adjuntar el correo de aprobación al folio, se cuentan con 16 horas hábiles para adjuntar la información
+
+NOTA: NO SE REALIZAN INSTALACIONES O CONFIGURACIONES SIN PREVIA AUTORIZACIÓN
+
+2025-08-21 11:04:09 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+***FOLIO PENDIENTE DE INFORMACIÓN***
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+Buen día
+
+Para proceder con esta solicitud de instalación, favor de solicitar el Vo. Bo del área de CISO ingresando a la siguiente liga:
+
+https://forms.office.com/pages/responsepage.aspx?id=AlpZNW1NrESZ4fmrTNhy2y2j5a9WhNdDihfY-wkxOJtUODJKVTEzR1lETjBTNVZJMFpLU1E5OUY4Ti4u&web=1&wdLOR=c83A5DB56-A75D-44CC-86B8-9D90770330A6
+
+En caso de presentar problemas con la liga, favor de comunicarse con los autorizadores vía correo:
+
+(CARLOS OMAR GARCIA LEYVA <carlosgarcial@santander.com.mx> ALBERTO DE JESUS VALLADARES <albde@empresaexterna.com.mx> GUSTAVO ARMANDO LORETO CASTRO <gloreto@empresaexterna.com.mx > EDGAR ALEJANDRO ROSALES AGUILAR <edgrosales@gruposantander.com.mx> o RICARDO ANDRES CARMONA DOMINGUEZ <ricarmona@santander.com.mx> Notificaciones CISO Mexico <notiCISOMX@santander.com.mx>) anexando el HOSTNAME de su equipo.
+
+*** NOTA Favor de no copiar al SDK en los correos al solicitar VoBo a las áreas correspondientes***
+
+Una vez cuente con las aprobaciones correspondientes deberá adjuntar el correo de aprobación al folio, se cuentan con 16 horas hábiles para adjuntar la información
+
+NOTA: NO SE REALIZAN INSTALACIONES O CONFIGURACIONES SIN PREVIA AUTORIZACIÓN
+
+2025-08-21 08:47:50 - LUIS MARCONI VAZQUEZ BRAVO (Observaciones adicionales)
+# Additional comments from RITM017261661: 
+21/08/2025 16:47:49 - LUIS MARCONI VAZQUEZ BRAVO (Additional comments)
+Hola, ya se llenó el formato solicitado
+
+
+
+2025-08-20 11:31:04 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+***FOLIO PENDIENTE DE INFORMACIÓN***
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+Buen día
+
+Para proceder con esta solicitud de instalación, favor de solicitar el Vo. Bo del área de CISO ingresando a la siguiente liga:
+
+https://forms.office.com/pages/responsepage.aspx?id=AlpZNW1NrESZ4fmrTNhy2y2j5a9WhNdDihfY-wkxOJtUODJKVTEzR1lETjBTNVZJMFpLU1E5OUY4Ti4u&web=1&wdLOR=c83A5DB56-A75D-44CC-86B8-9D90770330A6
+
+En caso de presentar problemas con la liga, favor de comunicarse con los autorizadores vía correo:
+
+(CARLOS OMAR GARCIA LEYVA <carlosgarcial@santander.com.mx> ALBERTO DE JESUS VALLADARES <albde@empresaexterna.com.mx> GUSTAVO ARMANDO LORETO CASTRO <gloreto@empresaexterna.com.mx > EDGAR ALEJANDRO ROSALES AGUILAR <edgrosales@gruposantander.com.mx> o RICARDO ANDRES CARMONA DOMINGUEZ <ricarmona@santander.com.mx> Notificaciones CISO Mexico <notiCISOMX@santander.com.mx>) anexando el HOSTNAME de su equipo.
+
+*** NOTA Favor de no copiar al SDK en los correos al solicitar VoBo a las áreas correspondientes***
+
+Una vez cuente con las aprobaciones correspondientes deberá adjuntar el correo de aprobación al folio, se cuentan con 16 horas hábiles para adjuntar la información
+
+NOTA: NO SE REALIZAN INSTALACIONES O CONFIGURACIONES SIN PREVIA AUTORIZACIÓN
+
+2025-08-20 11:31:04 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+***FOLIO PENDIENTE DE INFORMACIÓN***
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+Buen día
+
+Para proceder con esta solicitud de instalación, favor de solicitar el Vo. Bo del área de CISO ingresando a la siguiente liga:
+
+https://forms.office.com/pages/responsepage.aspx?id=AlpZNW1NrESZ4fmrTNhy2y2j5a9WhNdDihfY-wkxOJtUODJKVTEzR1lETjBTNVZJMFpLU1E5OUY4Ti4u&web=1&wdLOR=c83A5DB56-A75D-44CC-86B8-9D90770330A6
+
+En caso de presentar problemas con la liga, favor de comunicarse con los autorizadores vía correo:
+
+(CARLOS OMAR GARCIA LEYVA <carlosgarcial@santander.com.mx> ALBERTO DE JESUS VALLADARES <albde@empresaexterna.com.mx> GUSTAVO ARMANDO LORETO CASTRO <gloreto@empresaexterna.com.mx > EDGAR ALEJANDRO ROSALES AGUILAR <edgrosales@gruposantander.com.mx> o RICARDO ANDRES CARMONA DOMINGUEZ <ricarmona@santander.com.mx> Notificaciones CISO Mexico <notiCISOMX@santander.com.mx>) anexando el HOSTNAME de su equipo.
+
+*** NOTA Favor de no copiar al SDK en los correos al solicitar VoBo a las áreas correspondientes***
+
+Una vez cuente con las aprobaciones correspondientes deberá adjuntar el correo de aprobación al folio, se cuentan con 16 horas hábiles para adjuntar la información
+
+NOTA: NO SE REALIZAN INSTALACIONES O CONFIGURACIONES SIN PREVIA AUTORIZACIÓN
+
+2025-08-20 11:11:09 - LUIS MARCONI VAZQUEZ BRAVO (Notas de trabajo)
+# Work notes from RITM017261661: 
+20/08/2025 19:11:09 - LUIS MARCONI VAZQUEZ BRAVO (Work notes)
+Actual Start Date is: 20/08/2025 19:11:08
+
+
+
+",SDK_SOL,22 AGO - 28 AGO,Aplica,,,"Folio Cancelado, no hay forma de cancelar folios en la herramienta Snow y esperamos tiempo normal de atención y se cierra como cancelado",procede
+SCTASK20042412,2025-08-28 13:05:44,,EUT Resolutores SDK,0,1503,VENCIDO,VS,"2025-08-28 13:05:30 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+*** NO SE REALIZA CONEXION REMOTA ***
+SCRIPT DE CANCELACION POR FALTA DE ESTADO CANCELADO
+
+ATENCION REAL: Instalación Angular Cli
+ING: CRISTINA GISSEL CRESPO GÓMEZ
+MOTIVO: Se cancela folio usuario no localizado, SLA vencido para la atención, favor de generar nuevo folio con la siguiente categoría adjuntando vobo de ciso donde se autorice bajar servicio de umbrella :
+
+https://santander.service-now.com/santecitsm
+* INICIO
+* CATALOG MX
+* SOFTWARE
+* INSTALACIÓN DE SOFTWARE
+
+LIGA SERVICE NOW URL:
+https://santander.service-now.com/santecitsm?id=sc_cat_item&sys_id=61fba17b1b66589062ce85506e4bcbe1&sysparm_category=1bec722bdb929c50ec3fa5305b96195d
+
+2025-08-28 13:05:30 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+*** NO SE REALIZA CONEXION REMOTA ***
+SCRIPT DE CANCELACION POR FALTA DE ESTADO CANCELADO
+
+ATENCION REAL: Instalación Angular Cli
+ING: CRISTINA GISSEL CRESPO GÓMEZ
+MOTIVO: Se cancela folio usuario no localizado, SLA vencido para la atención, favor de generar nuevo folio con la siguiente categoría adjuntando vobo de ciso donde se autorice bajar servicio de umbrella :
+
+https://santander.service-now.com/santecitsm
+* INICIO
+* CATALOG MX
+* SOFTWARE
+* INSTALACIÓN DE SOFTWARE
+
+LIGA SERVICE NOW URL:
+https://santander.service-now.com/santecitsm?id=sc_cat_item&sys_id=61fba17b1b66589062ce85506e4bcbe1&sysparm_category=1bec722bdb929c50ec3fa5305b96195d
+
+2025-08-28 09:11:45 - ADRIAN JAVIER MENDOZA LIRA (Observaciones adicionales)
+# Additional comments from RITM017316054: 
+28/08/2025 17:11:45 - ADRIAN JAVIER MENDOZA LIRA (Additional comments)
+Buen día, ya solicite la autorización para bajar Umbrella para poder hacer la instalación de Angular
+
+
+
+2025-08-28 09:10:04 - ADRIAN JAVIER MENDOZA LIRA (Notas de trabajo)
+# Work notes from RITM017316054: 
+28/08/2025 17:10:04 - ADRIAN JAVIER MENDOZA LIRA (Work notes)
+Attachment Solicitud de uso de software - APROBADO (1).msg has been attached by ADRIAN JAVIER MENDOZA LIRA
+
+
+
+2025-08-28 09:09:38 - ADRIAN JAVIER MENDOZA LIRA (Notas de trabajo)
+# Work notes from RITM017316054: 
+28/08/2025 17:09:38 - ADRIAN JAVIER MENDOZA LIRA (Work notes)
+Attachment Solicitud de uso de software - APROBADO (1).eml has been attached by ADRIAN JAVIER MENDOZA LIRA
+
+
+
+2025-08-27 11:07:17 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+***FOLIO PENDIENTE DE INFORMACIÓN***
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+FAVOR DE ACERCARSE NUEVAMENTE CON EL ÁREA DE CISO SE DEBE SOLICITAR AUTORIZACIÓN PARA BAJAR EL SERVICIO DE UMBRELLA PARA QUE LA INSTALACIÓN DE LA APLICACIÓN ANGULAR QUEDE CORRECTAMENTE, SE CUENTA CON 16 HORAS HÁBILES PARA ADJUNTAR LA INFORMACIÓN.
+
+2025-08-27 11:07:17 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+***FOLIO PENDIENTE DE INFORMACIÓN***
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+FAVOR DE ACERCARSE NUEVAMENTE CON EL ÁREA DE CISO SE DEBE SOLICITAR AUTORIZACIÓN PARA BAJAR EL SERVICIO DE UMBRELLA PARA QUE LA INSTALACIÓN DE LA APLICACIÓN ANGULAR QUEDE CORRECTAMENTE, SE CUENTA CON 16 HORAS HÁBILES PARA ADJUNTAR LA INFORMACIÓN.
+
+2025-08-26 16:30:37 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+***FOLIO PENDIENTE DE INFORMACIÓN***
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+FAVOR DE ACERCARSE NUEVAMENTE CON EL ÁREA DE CISO SE DEBE SOLICITAR  AUTORIZACIÓN PARA BAJAR EL SERVICIO DE UMBRELLA PARA QUE LA INSTALACIÓN DE LA APLICACIÓN ANGULAR QUEDE CORRECTAMENTE, SE CUENTA CON 16 HORAS HÁBILES PARA ADJUNTAR LA INFORMACIÓN.
+
+2025-08-26 16:30:37 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+***FOLIO PENDIENTE DE INFORMACIÓN***
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+FAVOR DE ACERCARSE NUEVAMENTE CON EL ÁREA DE CISO SE DEBE SOLICITAR  AUTORIZACIÓN PARA BAJAR EL SERVICIO DE UMBRELLA PARA QUE LA INSTALACIÓN DE LA APLICACIÓN ANGULAR QUEDE CORRECTAMENTE, SE CUENTA CON 16 HORAS HÁBILES PARA ADJUNTAR LA INFORMACIÓN.
+
+2025-08-26 15:55:24 - JAVIER ANGEL MOYA MORALES (Notas de trabajo)
+Buenas tardes, se asigna al service desk para su atención.
+
+2025-08-26 13:02:34 - ADRIAN JAVIER MENDOZA LIRA (Notas de trabajo)
+# Work notes from RITM017316054: 
+26/08/2025 21:02:33 - ADRIAN JAVIER MENDOZA LIRA (Work notes)
+Actual Start Date is: 26/08/2025 21:02:32
+
+
+
+",SDK_SOL,22 AGO - 28 AGO,Aplica,,,"Folio Cancelado, usuario no localizado, SLA vencido para la atención.",procede
+SCTASK19980559,2025-08-25 12:16:26,,EUT Resolutores SDK,0,2376,VENCIDO,VS,"2025-08-25 12:16:26 - GUADALUPE RAMIREZ MENDEZ (Notas de trabajo)
+ASESORIA 
+FALLA REAL:INSTALACION DE LIBRERIAS 
+USUARIO:GUADALUPE MARTINEZ VARGAS
+ING:GUADALUPE RAMIREZ MENDEZ
+SOLUCION:USUARIO REQUIERE LA APLIACION DE PYTHON PARA  INSTALAR LAS LIBRERIAS, SE  SOLICICTA GENERARA FOLIO AL AREA YA QUE NO TIENE LA APLICACION EN EL CENTRO DE SOFTWARE , CUANDO TENGA LA APLICACION VA GENERAR NUEVAMENTE  FOLIO PARA LA INSTALACION DE LAS LIBRERIAS.
+ZONA:1
+CC:ED088
+SUC:EDIF. CORPORATIVO PATIO SANTA FE
+VERSION DE SO: 23H2
+VERSION SDK Click: 1.0
+DOMINIO:GFSSCORP
+VERSION S.O.: W11
+
+IP:180.51.182.68
+HOSTNAME:SMPRVLFC481767P
+
+2025-08-25 12:14:03 - GUADALUPE RAMIREZ MENDEZ (Notas de trabajo)
+K10 Folio extemporaneo dependencia (SOFTDIS)
+AUTORIZA MAPG
+
+2025-08-22 14:44:48 - GUADALUPE RAMIREZ MENDEZ (Observaciones adicionales)
+USUARIO REPROGRAMA PARA MAS TARDE
+
+2025-08-21 16:54:22 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+Archivo adjunto VOBO_UMBRELLA.pdf ha sido agregado por CRISTINA GISSEL CRESPO GOMEZ
+
+2025-08-21 11:01:35 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+***FOLIO PENDIENTE DE INFORMACIÓN***
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+Buen día
+
+Para proceder con esta solicitud de instalación, favor de solicitar el Vo. Bo del área de CISO ingresando a la siguiente liga:
+
+https://forms.office.com/pages/responsepage.aspx?id=AlpZNW1NrESZ4fmrTNhy2y2j5a9WhNdDihfY-wkxOJtUODJKVTEzR1lETjBTNVZJMFpLU1E5OUY4Ti4u&web=1&wdLOR=c83A5DB56-A75D-44CC-86B8-9D90770330A6
+
+En caso de presentar problemas con la liga, favor de comunicarse con los autorizadores vía correo:
+
+(CARLOS OMAR GARCIA LEYVA <carlosgarcial@santander.com.mx> ALBERTO DE JESUS VALLADARES <albde@empresaexterna.com.mx> GUSTAVO ARMANDO LORETO CASTRO <gloreto@empresaexterna.com.mx > EDGAR ALEJANDRO ROSALES AGUILAR <edgrosales@gruposantander.com.mx> o RICARDO ANDRES CARMONA DOMINGUEZ <ricarmona@santander.com.mx> Notificaciones CISO Mexico <notiCISOMX@santander.com.mx>) anexando el HOSTNAME de su equipo.
+
+*** NOTA Favor de no copiar al SDK en los correos al solicitar VoBo a las áreas correspondientes***
+
+Una vez cuente con las aprobaciones correspondientes deberá adjuntar el correo de aprobación al folio, se cuentan con 16 horas hábiles para adjuntar la información
+
+NOTA: NO SE REALIZAN INSTALACIONES O CONFIGURACIONES SIN PREVIA AUTORIZACIÓN , ADICIONAL DEBE VENIR AUTORIZADO BAJAR EL SERVICIO DE UMBRELLA PARA QUE LA INSTALACIÓN DE LAS LIBRERÍAS QUEDE CORRECTAMENTE
+
+2025-08-21 11:01:35 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+***FOLIO PENDIENTE DE INFORMACIÓN***
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+Buen día
+
+Para proceder con esta solicitud de instalación, favor de solicitar el Vo. Bo del área de CISO ingresando a la siguiente liga:
+
+https://forms.office.com/pages/responsepage.aspx?id=AlpZNW1NrESZ4fmrTNhy2y2j5a9WhNdDihfY-wkxOJtUODJKVTEzR1lETjBTNVZJMFpLU1E5OUY4Ti4u&web=1&wdLOR=c83A5DB56-A75D-44CC-86B8-9D90770330A6
+
+En caso de presentar problemas con la liga, favor de comunicarse con los autorizadores vía correo:
+
+(CARLOS OMAR GARCIA LEYVA <carlosgarcial@santander.com.mx> ALBERTO DE JESUS VALLADARES <albde@empresaexterna.com.mx> GUSTAVO ARMANDO LORETO CASTRO <gloreto@empresaexterna.com.mx > EDGAR ALEJANDRO ROSALES AGUILAR <edgrosales@gruposantander.com.mx> o RICARDO ANDRES CARMONA DOMINGUEZ <ricarmona@santander.com.mx> Notificaciones CISO Mexico <notiCISOMX@santander.com.mx>) anexando el HOSTNAME de su equipo.
+
+*** NOTA Favor de no copiar al SDK en los correos al solicitar VoBo a las áreas correspondientes***
+
+Una vez cuente con las aprobaciones correspondientes deberá adjuntar el correo de aprobación al folio, se cuentan con 16 horas hábiles para adjuntar la información
+
+NOTA: NO SE REALIZAN INSTALACIONES O CONFIGURACIONES SIN PREVIA AUTORIZACIÓN , ADICIONAL DEBE VENIR AUTORIZADO BAJAR EL SERVICIO DE UMBRELLA PARA QUE LA INSTALACIÓN DE LAS LIBRERÍAS QUEDE CORRECTAMENTE
+
+2025-08-20 11:17:04 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+***FOLIO PENDIENTE DE INFORMACIÓN***
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+Buen día
+
+Para proceder con esta solicitud de instalación, favor de solicitar el Vo. Bo del área de CISO ingresando a la siguiente liga:
+
+https://forms.office.com/pages/responsepage.aspx?id=AlpZNW1NrESZ4fmrTNhy2y2j5a9WhNdDihfY-wkxOJtUODJKVTEzR1lETjBTNVZJMFpLU1E5OUY4Ti4u&web=1&wdLOR=c83A5DB56-A75D-44CC-86B8-9D90770330A6
+
+En caso de presentar problemas con la liga, favor de comunicarse con los autorizadores vía correo:
+
+(CARLOS OMAR GARCIA LEYVA <carlosgarcial@santander.com.mx> ALBERTO DE JESUS VALLADARES <albde@empresaexterna.com.mx> GUSTAVO ARMANDO LORETO CASTRO <gloreto@empresaexterna.com.mx > EDGAR ALEJANDRO ROSALES AGUILAR <edgrosales@gruposantander.com.mx> o RICARDO ANDRES CARMONA DOMINGUEZ <ricarmona@santander.com.mx> Notificaciones CISO Mexico <notiCISOMX@santander.com.mx>) anexando el HOSTNAME de su equipo.
+
+*** NOTA Favor de no copiar al SDK en los correos al solicitar VoBo a las áreas correspondientes***
+
+Una vez cuente con las aprobaciones correspondientes deberá adjuntar el correo de aprobación al folio, se cuentan con 16 horas hábiles para adjuntar la información
+
+NOTA: NO SE REALIZAN INSTALACIONES O CONFIGURACIONES SIN PREVIA AUTORIZACIÓN , ADICIONAL DEBE VENIR AUTORIZADO BAJAR EL SERVICIO DE UMBRELLA PARA QUE LA INSTALACIÓN DE LAS LIBRERÍAS QUEDE CORRECTAMENTE
+
+2025-08-20 11:17:04 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+***FOLIO PENDIENTE DE INFORMACIÓN***
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+Buen día
+
+Para proceder con esta solicitud de instalación, favor de solicitar el Vo. Bo del área de CISO ingresando a la siguiente liga:
+
+https://forms.office.com/pages/responsepage.aspx?id=AlpZNW1NrESZ4fmrTNhy2y2j5a9WhNdDihfY-wkxOJtUODJKVTEzR1lETjBTNVZJMFpLU1E5OUY4Ti4u&web=1&wdLOR=c83A5DB56-A75D-44CC-86B8-9D90770330A6
+
+En caso de presentar problemas con la liga, favor de comunicarse con los autorizadores vía correo:
+
+(CARLOS OMAR GARCIA LEYVA <carlosgarcial@santander.com.mx> ALBERTO DE JESUS VALLADARES <albde@empresaexterna.com.mx> GUSTAVO ARMANDO LORETO CASTRO <gloreto@empresaexterna.com.mx > EDGAR ALEJANDRO ROSALES AGUILAR <edgrosales@gruposantander.com.mx> o RICARDO ANDRES CARMONA DOMINGUEZ <ricarmona@santander.com.mx> Notificaciones CISO Mexico <notiCISOMX@santander.com.mx>) anexando el HOSTNAME de su equipo.
+
+*** NOTA Favor de no copiar al SDK en los correos al solicitar VoBo a las áreas correspondientes***
+
+Una vez cuente con las aprobaciones correspondientes deberá adjuntar el correo de aprobación al folio, se cuentan con 16 horas hábiles para adjuntar la información
+
+NOTA: NO SE REALIZAN INSTALACIONES O CONFIGURACIONES SIN PREVIA AUTORIZACIÓN , ADICIONAL DEBE VENIR AUTORIZADO BAJAR EL SERVICIO DE UMBRELLA PARA QUE LA INSTALACIÓN DE LAS LIBRERÍAS QUEDE CORRECTAMENTE
+
+2025-08-20 10:32:57 - JAVIER ANGEL MOYA MORALES (Notas de trabajo)
+Buen día, se asigna al service desk para su revisión.
+
+2025-08-20 10:09:30 - GUADALUPE MARTINEZ VARGAS (Notas de trabajo)
+# Work notes from RITM017260938: 
+20/08/2025 10:09:29 - GUADALUPE MARTINEZ VARGAS (Notas de trabajo)
+Actual Start Date is: 20/08/2025 10:09:28
+
+
+
+",SDK_SOL,22 AGO - 28 AGO,K10,,,Servicio con dependencia de otra area,procede
+SCTASK19985481,2025-08-25 12:34:19,,EUT Resolutores SDK,0,1969,VENCIDO,VS,"2025-08-25 12:34:19 - ISRAEL ASCENCIO CONTRERAS (Observaciones adicionales)
+ATENCION ASESORIA
+PETICION REAL: 	SAP TIENE CONFIGURADA LA COMA COMO SEPARADOR DE DECIMALES
+VOBO:	FRANCISCO JAVIER VICENCIO RAMIREZ
+ING: 	ISRAEL ASCENCIO CONTRERAS
+SOLUCION: 	CANCELADO - USR INDICA QUE YA NO PRESENTA LA FALLA 
+ZONA: 	0
+CC: 	ED024
+SUC: 	EDIF. CORPORATIVO CTOS QUERETARO
+VERSION DE SO:	W11
+Versión SDK Click	2
+Dominio:	GFSSCORP 
+HOSTNAME: 	NA
+IP:	NA
+
+2025-08-25 12:28:08 - VICTOR HUGO BARCENAS LUNA (Notas de trabajo)
+# Work notes from RITM017265347: 
+25/08/2025 12:28:07 - VICTOR HUGO BARCENAS LUNA (Notas de trabajo)
+Usuario se comunica para indica que ya se solucion que valido el acceso con identity y que valido la configuracion con sus compañero y pudo modificar los parametros
+
+
+
+2025-08-25 12:15:23 - ISRAEL ASCENCIO CONTRERAS (Observaciones adicionales)
+SE MARCA NUMERO DE CELULAR 4421006583 NO HAY RESPUESTA FAVOR DE COMUNICARSE A LA EXT 70767 O NUMERO DIRECTO 5551741101 OPCION 3 PARA CONTINUAR CON ATENCION DE REPORTE
+
+2025-08-25 12:15:09 - ISRAEL ASCENCIO CONTRERAS (Notas de trabajo)
+Archivo adjunto SCTASK19985481_2.png ha sido agregado por ISRAEL ASCENCIO CONTRERAS
+
+2025-08-22 13:11:42 - ISRAEL ASCENCIO CONTRERAS (Observaciones adicionales)
+SE MARCA NUMERO DE CELULAR 4421006583 NO HAY RESPUESTA FAVOR DE COMUNICARSE A LA EXT 70767 O NUMERO DIRECTO 5551741101 OPCION 3 PARA CONTINUAR CON ATENCION DE REPORTE
+
+2025-08-22 13:10:45 - ISRAEL ASCENCIO CONTRERAS (Notas de trabajo)
+Archivo adjunto SCTASK19985481.png ha sido agregado por ISRAEL ASCENCIO CONTRERAS
+
+2025-08-21 11:43:47 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+A valoración
+
+2025-08-21 09:05:54 - JAVIER ANGEL MOYA MORALES (Notas de trabajo)
+Buen día, se asigna al service desk para su revisión.
+
+2025-08-20 17:15:18 - FRANCISCO JAVIER VICENCIO RAMIREZ (Notas de trabajo)
+# Work notes from RITM017265347: 
+21/08/2025 01:15:17 - FRANCISCO JAVIER VICENCIO RAMIREZ (Notas de trabajo)
+Actual Start Date is: 21/08/2025 01:15:17
+
+
+
+",SDK_SOL,22 AGO - 28 AGO,K10,,,Servicio con dependencia de otra area,procede
+SCTASK20045790,2025-08-28 19:26:27,,EUT Resolutores SDK,0,1553,VENCIDO,VS,"2025-08-28 19:26:27 - JUAN LUIS GONZALEZ JUAREZ (Notas de trabajo)
+K11 Folio fuera de tiempo - Usuario se comunica fuera de tiempo de atención de SLA regular para atención a solicitud.
+
+2025-08-28 19:26:27 - JUAN LUIS GONZALEZ JUAREZ (Observaciones adicionales)
+** ATENCION REMOTA **
+
+- PETICION: SOFTWARE - Instalación de Angular Cli
+- Vo.Bo: ALBIN JESUS CARBAJAL CARPIO
+- ING: JUAN LUIS GONZALEZ
+- SOLUCION: Se apoya a usuario a detener Servicio de Umbrella, para llevar acabo la instalación de Angular Cli.
+- SUC o CORP: EDIF. CORPORATIVO CTOSS QUERETARO ALTEC
+- Version de SO: WINDOWS11 / 23H2
+- Version SDK Click: 1.0.12
+- Dominio: GFSSCORP
+
+- IP: 180.51.151.129
+- HOSTNAME: EXPRUTEZ691481P
+
+		*** SE ANEXA PANTALLA DE McAfee ***
+
+2025-08-28 19:25:05 - JUAN LUIS GONZALEZ JUAREZ (Notas de trabajo)
+Archivo adjunto Captura de pantalla 2025-08-28 191338.jpg ha sido agregado por JUAN LUIS GONZALEZ JUAREZ
+
+2025-08-28 19:24:52 - JUAN LUIS GONZALEZ JUAREZ (Notas de trabajo)
+Archivo adjunto Captura de pantalla 2025-08-28 191529.jpg ha sido agregado por JUAN LUIS GONZALEZ JUAREZ
+
+2025-08-28 18:57:46 - JUAN LUIS GONZALEZ JUAREZ (Notas de trabajo)
+Archivo adjunto Captura de pantalla 2025-08-28 185730.jpg ha sido agregado por JUAN LUIS GONZALEZ JUAREZ
+
+2025-08-28 18:40:52 - JUAN LUIS GONZALEZ JUAREZ (Notas de trabajo)
+Archivo adjunto Captura de pantalla 2025-08-28 184036.jpg ha sido agregado por JUAN LUIS GONZALEZ JUAREZ
+
+2025-08-28 18:29:07 - ALBIN JESUS CARBAJAL CARPIO (Observaciones adicionales)
+# Additional comments from RITM017318970: 
+29/08/2025 02:29:07 - ALBIN JESUS CARBAJAL CARPIO (Observaciones adicionales)
+Se anexa Vo.Bo para detener umbrella, gracias
+
+
+
+2025-08-28 18:28:07 - ALBIN JESUS CARBAJAL CARPIO (Notas de trabajo)
+# Work notes from RITM017318970: 
+29/08/2025 02:28:07 - ALBIN JESUS CARBAJAL CARPIO (Notas de trabajo)
+Archivo adjunto vobo ciso umbrella.pdf ha sido agregado por ALBIN JESUS CARBAJAL CARPIO
+
+
+
+2025-08-28 18:07:49 - JUAN LUIS GONZALEZ JUAREZ (Observaciones adicionales)
+En espera de que usuario proporcione Vo.Bo. de CISO para poder detener el Servicio de Umbrella.
+
+2025-08-28 18:07:49 - JUAN LUIS GONZALEZ JUAREZ (Notas de trabajo)
+En espera de que usuario proporcione Vo.Bo. de CISO para poder detener el Servicio de Umbrella.
+
+2025-08-28 18:07:07 - JUAN LUIS GONZALEZ JUAREZ (Observaciones adicionales)
+En espera de que usuario proporcione Vo.Bo. de CISO para poder detener el Servicio de Umbrella.
+
+2025-08-28 15:22:44 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+Hostname:EXPRUTEZ691481P
+
+2025-08-28 15:22:44 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+Hostname:EXPRUTEZ691481P
+
+2025-08-28 14:22:13 - ALBIN JESUS CARBAJAL CARPIO (Observaciones adicionales)
+# Additional comments from RITM017318970: 
+28/08/2025 22:22:12 - ALBIN JESUS CARBAJAL CARPIO (Observaciones adicionales)
+se anexan los vobos
+
+
+
+2025-08-28 14:21:52 - ALBIN JESUS CARBAJAL CARPIO (Notas de trabajo)
+# Work notes from RITM017318970: 
+28/08/2025 22:21:51 - ALBIN JESUS CARBAJAL CARPIO (Notas de trabajo)
+Archivo adjunto Petición de visto bueno de Software (3).pdf ha sido agregado por ALBIN JESUS CARBAJAL CARPIO
+
+
+
+2025-08-28 14:21:37 - ALBIN JESUS CARBAJAL CARPIO (Notas de trabajo)
+# Work notes from RITM017318970: 
+28/08/2025 22:21:36 - ALBIN JESUS CARBAJAL CARPIO (Notas de trabajo)
+Archivo adjunto ciso2.pdf ha sido agregado por ALBIN JESUS CARBAJAL CARPIO
+
+
+
+2025-08-28 10:56:15 - ALBIN JESUS CARBAJAL CARPIO (Observaciones adicionales)
+# Additional comments from RITM017318970: 
+28/08/2025 18:56:14 - ALBIN JESUS CARBAJAL CARPIO (Observaciones adicionales)
+Hola, estoy en espera de la del nuevo vobo de parte de CISO, gracias
+
+
+
+2025-08-28 10:40:56 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+***FOLIO PENDIENTE DE INFORMACIÓN***
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+FAVOR DE ACERCARSE NUEVAMENTE CON EL ÁREA DE CISO SE DEBE SOLICITAR AUTORIZACIÓN PARA BAJAR EL SERVICIO DE UMBRELLA PARA QUE LA INSTALACIÓN DEL ANGULAR QUEDE CORRECTAMENTE, SE CUENTA CON 16 HORAS HÁBILES PARA ADJUNTAR LA INFORMACIÓN.
+
+2025-08-28 10:40:56 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+***FOLIO PENDIENTE DE INFORMACIÓN***
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+FAVOR DE ACERCARSE NUEVAMENTE CON EL ÁREA DE CISO SE DEBE SOLICITAR AUTORIZACIÓN PARA BAJAR EL SERVICIO DE UMBRELLA PARA QUE LA INSTALACIÓN DEL ANGULAR QUEDE CORRECTAMENTE, SE CUENTA CON 16 HORAS HÁBILES PARA ADJUNTAR LA INFORMACIÓN.
+
+2025-08-27 11:49:53 - CRISTINA GISSEL CRESPO GOMEZ (Notas de trabajo)
+***FOLIO PENDIENTE DE INFORMACIÓN***
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+FAVOR DE ACERCARSE NUEVAMENTE CON EL ÁREA DE CISO SE DEBE SOLICITAR AUTORIZACIÓN PARA BAJAR EL SERVICIO DE UMBRELLA PARA QUE LA INSTALACIÓN DEL ANGULAR QUEDE CORRECTAMENTE, SE CUENTA CON 16 HORAS HÁBILES PARA ADJUNTAR LA INFORMACIÓN.
+
+2025-08-27 11:49:53 - CRISTINA GISSEL CRESPO GOMEZ (Observaciones adicionales)
+***FOLIO PENDIENTE DE INFORMACIÓN***
+***FOLIO EN ESPERA DEL SOLICITANTE***
+
+FAVOR DE ACERCARSE NUEVAMENTE CON EL ÁREA DE CISO SE DEBE SOLICITAR AUTORIZACIÓN PARA BAJAR EL SERVICIO DE UMBRELLA PARA QUE LA INSTALACIÓN DEL ANGULAR QUEDE CORRECTAMENTE, SE CUENTA CON 16 HORAS HÁBILES PARA ADJUNTAR LA INFORMACIÓN.
+
+2025-08-26 18:33:20 - ALBIN JESUS CARBAJAL CARPIO (Notas de trabajo)
+# Work notes from RITM017318970: 
+27/08/2025 02:33:20 - ALBIN JESUS CARBAJAL CARPIO (Notas de trabajo)
+Actual Start Date is: 27/08/2025 02:33:19
+
+
+
+",SDK_SOL,22 AGO - 28 AGO,K11,,,Folio fuera de tiempo - Usuario se comunica fuera de tiempo de atención de SLA regular para atención a solicitud.,procede
+SCTASK20042228,2025-08-28 14:34:34,,EUT Resolutores SDK,0,1603,VENCIDO,VS,"2025-08-28 14:34:34 - JUAN LUIS GONZALEZ JUAREZ (Observaciones adicionales)
+** ATENCION REMOTA **
+
+- PETICION: SOFTWARE - Instalación de Opics
+- Vo.Bo: MONTSERRAT QUINTANAR GARCIA
+- ING: JUAN LUIS GONZALEZ
+- SOLUCION: Se realiza la instalación de Opics, al hacer pruebas arroja error de credenciales, se cambia contraseña en 3 ocasiones pero el problema persiste, por lo que se le pide a usuario apoyar con un folio nuevo cuando se encuentre en corporativo para poder hacer pruebas en la red del banco.
+- SUC o CORP: EDIF. CORPORATIVO SANTA FE
+- Version de SO: WINDOWS11 / 23H2
+- Version SDK Click: 1.0.12
+- Dominio: GFSSCORP
+
+- IP: 180.97.16.248
+- HOSTNAME: SMSFECMC394719P
+
+		*** SE ANEXA PANTALLA DE McAfee ***
+
+2025-08-28 14:34:34 - JUAN LUIS GONZALEZ JUAREZ (Notas de trabajo)
+K13 Proceso tardado para transferir y/o instalar SW
+
+2025-08-28 14:33:50 - JUAN LUIS GONZALEZ JUAREZ (Notas de trabajo)
+Archivo adjunto Captura de pantalla 2025-08-28 143219.jpg ha sido agregado por JUAN LUIS GONZALEZ JUAREZ
+
+2025-08-28 14:13:51 - JUAN LUIS GONZALEZ JUAREZ (Notas de trabajo)
+Archivo adjunto Captura de pantalla 2025-08-28 140439.jpg ha sido agregado por JUAN LUIS GONZALEZ JUAREZ
+
+2025-08-28 11:28:30 - MONTSERRAT QUINTANAR GARCIA (Observaciones adicionales)
+# Additional comments from RITM017315882: 
+28/08/2025 19:28:29 - MONTSERRAT QUINTANAR GARCIA (Observaciones adicionales)
+Buen día, se ha terminado de instalar otro aplicativo, se puede proceder para instalar OPICS
+
+
+
+2025-08-27 18:02:24 - JUAN LUIS GONZALEZ JUAREZ (Observaciones adicionales)
+Se reprograma atención para el día de mañana a las 11:00 a.m.
+
+2025-08-26 15:45:00 - JAVIER ANGEL MOYA MORALES (Notas de trabajo)
+Buenas tardes, se asigna al service desk para su atención.
+
+2025-08-26 12:51:27 - MONTSERRAT QUINTANAR GARCIA (Notas de trabajo)
+# Work notes from RITM017315882: 
+26/08/2025 20:51:26 - MONTSERRAT QUINTANAR GARCIA (Notas de trabajo)
+Actual Start Date is: 26/08/2025 20:51:25
+
+
+
+",SDK_SOL,22 AGO - 28 AGO,K13,,,Proceso tardado para transferir/instalar software.,procede
+SCTASK19908873,2025-08-26 11:33:20,,EUT CAU Centro,0,6853,VENCIDO,VS,"2025-08-26 11:32:59 - FRANCISCO DANIEL DAVILA OLIVO (Observaciones adicionales)
+ATENCION EN SITIO
+TIPO DE INTERVENCION:CAU
+FALLA REAL: BM CCS
+ORDEN DE SERVICIO:MEPT_3
+INHIBIDOR:
+VOBO: MARTIN BENITO HERNANDEZ GONZALEZ
+ING:MARIA ELENA PEREZ TAPIA
+SOLUCION:SE DARÁ SEGUIMIENTO CON FOLIO SCTASK20040738, ESTÁ EN ESPERA DE VOBO DE CISO PARA APERTURA DE SWTICH, POSTERIOR SE DEBE SOLICITAR A COMUNICACIONES APERTURA DE PUERTO DE RED DEBIDO A QUE NO DESCARGA IMAGEN DE CCS.
+CORP: CONTACT CENTER
+CC:0135
+ZONA:0
+LOCALIDAD:QUERETARO
+FDDO
+
+2025-08-26 11:32:59 - FRANCISCO DANIEL DAVILA OLIVO (Notas de trabajo)
+ATENCION EN SITIO
+TIPO DE INTERVENCION:CAU
+FALLA REAL: BM CCS
+ORDEN DE SERVICIO:MEPT_3
+INHIBIDOR:
+VOBO: MARTIN BENITO HERNANDEZ GONZALEZ
+ING:MARIA ELENA PEREZ TAPIA
+SOLUCION:SE DARÁ SEGUIMIENTO CON FOLIO SCTASK20040738, ESTÁ EN ESPERA DE VOBO DE CISO PARA APERTURA DE SWTICH, POSTERIOR SE DEBE SOLICITAR A COMUNICACIONES APERTURA DE PUERTO DE RED DEBIDO A QUE NO DESCARGA IMAGEN DE CCS.
+CORP: CONTACT CENTER
+CC:0135
+ZONA:0
+LOCALIDAD:QUERETARO
+FDDO
+
+2025-08-26 11:30:30 - FRANCISCO DANIEL DAVILA OLIVO (Notas de trabajo)
+SE DARÁ SEGUIMIENTO CON FOLIO SCTASK20040738, ESTÁ EN ESPERA DE VOBO DE CISO PARA APERTURA DE SWTICH, POSTERIOR SE DEBE SOLICITAR A COMUNICACIONES APERTURA DE PUERTO DE RED.
+
+2025-08-19 13:31:50 - FRANCISCO DANIEL DAVILA OLIVO (Notas de trabajo)
+EN ESPERA DE APERTURA DE PUERTO DE CAU CCS PARA PODER BAAR IMAGEN
+
+2025-08-18 10:43:46 - JAVIER ANGEL MOYA MORALES (Observaciones adicionales)
+Buen día, se ha declarado la BM.
+
+2025-08-15 19:20:15 - LUIS ALBERTO MARTIN RAMIREZ (Notas de trabajo)
+Favor de generar nueva bar metal ya que equipo se encuentra dañado adjunto nuevos datos.
+
+BM CON  DAÑO EN S.O   HOST NAME: QR1B134O IP:180.174.61.50 MAC: 6C-02-E0-9A-50-A0 OU: OPERADOR MASK:255.255.255.192 GATE WAY:180.174.61.190
+
+2025-08-15 09:09:42 - FRANCISCO DANIEL DAVILA OLIVO (Notas de trabajo)
+EN PROCESO DE BM
+
+2025-08-13 12:52:59 - JAVIER ANGEL MOYA MORALES (Observaciones adicionales)
+Buen día, se ha declarado la BM.
+
+2025-08-13 09:49:33 - MARTIN BENITO HERNANDEZ GONZALEZ (Notas de trabajo)
+# Work notes from RITM017196937: 
+13/08/2025 09:49:33 - MARTIN BENITO HERNANDEZ GONZALEZ (Notas de trabajo)
+Actual Start Date is: 13/08/2025 09:49:32
+
+
+
+",CAU_SOL,22 AGO - 28 AGO,AOA,3,APOYO DE OTRA AREA,"SE DARÁ SEGUIMIENTO CON FOLIO SCTASK20040738, ESTÁ EN ESPERA DE VOBO DE CISO PARA APERTURA DE SWTICH, POSTERIOR SE DEBE SOLICITAR A COMUNICACIONES APERTURA DE PUERTO DE RED DEBIDO A QUE NO DESCARGA IMAGEN DE CCS.",procede
+SCTASK19926172,2025-08-26 11:33:47,,EUT CAU Centro,0,5901,VENCIDO,VS,"2025-08-26 11:33:43 - FRANCISCO DANIEL DAVILA OLIVO (Notas de trabajo)
+ATENCION EN SITIO
+TIPO DE INTERVENCION:CAU
+FALLA REAL: BM CCS
+ORDEN DE SERVICIO:MEPT_3
+INHIBIDOR:
+VOBO: MARTIN BENITO HERNANDEZ GONZALEZ
+ING:MARIA ELENA PEREZ TAPIA
+SOLUCION:SE DARÁ SEGUIMIENTO CON FOLIO SCTASK20040741, ESTÁ EN ESPERA DE VOBO DE CISO PARA APERTURA DE SWTICH, POSTERIOR SE DEBE SOLICITAR A COMUNICACIONES APERTURA DE PUERTO DE RED.
+CORP: CONTACT CENTER
+CC:0135
+ZONA:0
+LOCALIDAD:QUERETARO
+FDDO
+
+2025-08-26 11:33:43 - FRANCISCO DANIEL DAVILA OLIVO (Observaciones adicionales)
+ATENCION EN SITIO
+TIPO DE INTERVENCION:CAU
+FALLA REAL: BM CCS
+ORDEN DE SERVICIO:MEPT_3
+INHIBIDOR:
+VOBO: MARTIN BENITO HERNANDEZ GONZALEZ
+ING:MARIA ELENA PEREZ TAPIA
+SOLUCION:SE DARÁ SEGUIMIENTO CON FOLIO SCTASK20040741, ESTÁ EN ESPERA DE VOBO DE CISO PARA APERTURA DE SWTICH, POSTERIOR SE DEBE SOLICITAR A COMUNICACIONES APERTURA DE PUERTO DE RED.
+CORP: CONTACT CENTER
+CC:0135
+ZONA:0
+LOCALIDAD:QUERETARO
+FDDO
+
+2025-08-26 11:31:14 - FRANCISCO DANIEL DAVILA OLIVO (Notas de trabajo)
+SE DARÁ SEGUIMIENTO CON FOLIO SCTASK20040741, ESTÁ EN ESPERA DE VOBO DE CISO PARA APERTURA DE SWTICH, POSTERIOR SE DEBE SOLICITAR A COMUNICACIONES APERTURA DE PUERTO DE RED.
+
+2025-08-19 13:32:02 - FRANCISCO DANIEL DAVILA OLIVO (Notas de trabajo)
+EN ESPERA DE APERTURA DE PUERTO DE CAU CCS PARA PODER BAAR IMAGEN
+
+2025-08-18 10:42:55 - JAVIER ANGEL MOYA MORALES (Observaciones adicionales)
+Buen día, se ha declarado la BM.
+
+2025-08-15 19:03:25 - LUIS ALBERTO MARTIN RAMIREZ (Notas de trabajo)
+Favor de modificar Mac, coloco datos correctos:
+MAC: A4-BB-6D-73-5A-C3 OU:
+
+2025-08-14 16:16:31 - JAVIER ANGEL MOYA MORALES (Observaciones adicionales)
+Buenas tardes, se ha declarado la BM.
+
+2025-08-14 13:12:20 - MARTIN BENITO HERNANDEZ GONZALEZ (Notas de trabajo)
+# Work notes from RITM017212589: 
+14/08/2025 13:12:19 - MARTIN BENITO HERNANDEZ GONZALEZ (Notas de trabajo)
+Actual Start Date is: 14/08/2025 13:12:18
+
+
+
+",CAU_SOL,22 AGO - 28 AGO,AOA,3,APOYO DE OTRA AREA,"SE DARÁ SEGUIMIENTO CON FOLIO SCTASK20040741, ESTÁ EN ESPERA DE VOBO DE CISO PARA APERTURA DE SWTICH, POSTERIOR SE DEBE SOLICITAR A COMUNICACIONES APERTURA DE PUERTO DE RED.",procede
+SCTASK19953710,2025-08-25 18:07:57,,EUT CAU Centro,0,3868,VENCIDO,VS,"2025-08-25 18:07:57 - ANDREA GUADALUPE MARTINEZ VALENCIA (Observaciones adicionales)
+PLANCHADO (2025)
+PLATAFORMADO WINDOWS 11
+ATENCION EN SITIO
+TIPO DE INTERVENCION:CAU
+FALLA REAL:ONBOARDINGT
+ORDEN DE SERVICIO:VJE00840
+INHIBIDOR:
+VOBO:ANA JOSELINE CARBAJAL RAMIREZ
+ING:VÍCTOR JAIR ESPINOZA GARCÍA
+SOLUCION:SE REALIZA RASIGNACION DE EQUIPO POR ONBOARDING. CA:355380
+HIBRIDACION=INICIO:22-08-2025 18:00 FIN:22-08-2025 20:00
+CORPORATIVO:CTOS QRO
+CC:ED024
+ZONA:0
+LOCALIDAD:QUERETARO
+IP:180.119.142.217
+MAC:30:13:8B:87:E5:08
+HOST:SMBEILNC981715P
+AGMV
+
+2025-08-25 18:07:57 - ANDREA GUADALUPE MARTINEZ VALENCIA (Notas de trabajo)
+PLANCHADO (2025)
+PLATAFORMADO WINDOWS 11
+ATENCION EN SITIO
+TIPO DE INTERVENCION:CAU
+FALLA REAL:ONBOARDINGT
+ORDEN DE SERVICIO:VJE00840
+INHIBIDOR:
+VOBO:ANA JOSELINE CARBAJAL RAMIREZ
+ING:VÍCTOR JAIR ESPINOZA GARCÍA
+SOLUCION:SE REALIZA RASIGNACION DE EQUIPO POR ONBOARDING. CA:355380
+HIBRIDACION=INICIO:22-08-2025 18:00 FIN:22-08-2025 20:00
+CORPORATIVO:CTOS QRO
+CC:ED024
+ZONA:0
+LOCALIDAD:QUERETARO
+IP:180.119.142.217
+MAC:30:13:8B:87:E5:08
+HOST:SMBEILNC981715P
+AGMV
+
+2025-08-25 17:56:10 - ANDREA GUADALUPE MARTINEZ VALENCIA (Notas de trabajo)
+Archivo adjunto RESPONSIVA SMBEILNC981715P 5CD419413X C981715 ANA JOSELINE CARBAJAL RAMIREZ.pdf ha sido agregado por ANDREA GUADALUPE MARTINEZ VALENCIA
+
+2025-08-25 12:03:04 - ANA GRITSSEL GONZALEZ PEREZ (Observaciones adicionales)
+SE REALIZA ENTREGA DE EQUIPO, ENTREGABLE EN PROCESO DE ELABORACION
+
+2025-08-25 12:03:04 - ANA GRITSSEL GONZALEZ PEREZ (Notas de trabajo)
+SE REALIZA ENTREGA DE EQUIPO, ENTREGABLE EN PROCESO DE ELABORACION
+
+2025-08-20 15:32:26 - JUAN JOSE VAZQUEZ RODRIGUEZ (Notas de trabajo)
+POR CARGA DE TRABAJO SE CONTEMPLA ATENCION AL USUARIO EL DIA DE MAÑANA 21/08 EN CORPORATIVO.
+
+2025-08-20 15:32:26 - JUAN JOSE VAZQUEZ RODRIGUEZ (Observaciones adicionales)
+POR CARGA DE TRABAJO SE CONTEMPLA ATENCION AL USUARIO EL DIA DE MAÑANA 21/08 EN CORPORATIVO.
+
+2025-08-18 16:09:57 - ANA CRISTINA HERNANDEZ DIAZ (Notas de trabajo)
+# Work notes from RITM017236982: 
+18/08/2025 16:09:56 - ANA CRISTINA HERNANDEZ DIAZ (Notas de trabajo)
+Actual Start Date is: 18/08/2025 16:09:55
+
+
+
+",CAU_SOL,22 AGO - 28 AGO,AOA,3,APOYO DE OTRA AREA,SE REALIZA RASIGNACION DE EQUIPO POR ONBOARDING. CA:355380,procede
+SCTASK19979360,2025-08-22 10:37:03,,EUT CAU Sur,0,1590,VENCIDO,VS,"2025-08-22 10:37:03 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+ATENCION EN SITIO
+TIPO DE INTERVENCION: CAU
+FALLA REAL: PERSONALIZACION
+INHIBIDOR: AOA_25082203_SCTASK19979360
+ORDEN DE SERVICIO:  ASS
+VOBO:  DANIA CRISTINA ZAVALA MAGAÑA
+ING:  ARMANDO SORIANO SANCHEZ
+SOLUCION: SE ASISTE A SITIO, SE REALIZA PERSONALIZACION DE EQUIPO, SE REALIZA EL FORZADO DE POLITICAS, SE REALZIA PROCESO DE ENROLAMIENTO EN IRON CHIP CON APOYO DE SDK, SE VALIDA EL FUNCIONAMIENTO DE EL EQUIPO QUEDANDO FUNCIONANDO DE MANERA CORRECTA.
+SUC.  SUC. PLAZA KUKULCAN (5139)
+C.C.: 5139
+ZONA:1 
+LOCALIDAD: BENITO JUÁREZ
+CHA
+
+2025-08-22 10:35:01 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+AOA. APOYO DE OTRA AREA SE SOLICITA APOYO A AREA DE SDK PARA REALZIAR ENROLAMIENTO DE IRON CHIP DE USUARIO NUEVO
+
+2025-08-20 09:06:13 - ROBERTO JESUS TORRES DUARTE (Notas de trabajo)
+# Work notes from RITM017259889: 
+20/08/2025 09:06:12 - ROBERTO JESUS TORRES DUARTE (Notas de trabajo)
+Actual Start Date is: 20/08/2025 09:06:12
+
+
+
+",CAU_SOL,22 AGO - 28 AGO,AOA_25082203_SCTASK19979360,3,APOYO DE OTRA AREA,"SE ASISTE A SITIO, SE REALIZA PERSONALIZACION DE EQUIPO, SE REALIZA EL FORZADO DE POLITICAS, SE REALZIA PROCESO DE ENROLAMIENTO EN IRON CHIP CON APOYO DE SDK, SE VALIDA EL FUNCIONAMIENTO DE EL EQUIPO QUEDANDO FUNCIONANDO",procede
+SCTASK20044916,2025-08-28 16:52:30,,EUT CAU Sur,0,1530,VENCIDO,VS,"2025-08-28 16:52:30 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+DESPLATAFORMADO 2025
+ATENCION EN SITIO
+TIPO DE INTERVENCION: CAU
+FALLA REAL: RETIRO DE IMAGEN CORPORATIVA EQUIPO EXTERNO
+INHIBIDOR: AOA_25082806_SCTASK20044916
+ORDEN DE SERVICIO:  MFG
+VOBO:  FELIPE SILVIANO JACOME RIVERA
+ING:  MIZRAIN FRANCO GARCIA
+SOLUCION: SE ASISTE A SITIO, SE REALIZA EL FORMATEO DE EQUIPO, SE REALIZA EL BORRADO DEL PASSWORD EN EL BIOS, SE BORRA IMAEN DE SANTARDER Y SE DEJA CON IMAGEN LIBRE, Y SE ENTREGA EQUIPO LIMPIO LIBRE DE APLICACIONES DEL BANCO.
+SUC: EDIF. COSTA DE ORO VERACRUZ (EDIFICIO CORPORATIVO REGIONAL SURESTE)
+C.C.:ED049
+ZONA: 0
+LOCALIDAD:  BOCA DEL RIO 
+CHA
+
+2025-08-28 16:52:17 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+Archivo adjunto IMG-20250828-WA0074.jpg ha sido agregado por CEDRID HERNANDEZ AGUILAR
+
+2025-08-28 16:50:32 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+AOA. APOYO DE OTRA AREA SE PIDE APOYO A AREA DE MAC CON MIGEL SANCHEZ CRUZ PARA REALIZAR BORRADO DE IMAGEN A EQUIPO MAC
+
+2025-08-28 12:45:57 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+K002. NO SE ENCONTRO A EL USUARIO SE LLAMA A NUMERO TEL  2281171424 SIN TENER RESPUESTA DEL USER
+
+2025-08-26 16:22:08 - MARY CRUZ HERNANDEZ GARCIA (Notas de trabajo)
+# Work notes from RITM017318290: 
+27/08/2025 00:22:07 - MARY CRUZ HERNANDEZ GARCIA (Notas de trabajo)
+Actual Start Date is: 27/08/2025 00:22:06
+
+
+
+",CAU_SOL,22 AGO - 28 AGO,AOA_25082806_SCTASK20044916,3,APOYO DE OTRA AREA,"SE ASISTE A SITIO, SE REALIZA EL FORMATEO DE EQUIPO, SE REALIZA EL BORRADO DEL PASSWORD EN EL BIOS, SE BORRA IMAEN DE SANTARDER Y SE DEJA CON IMAGEN LIBRE, Y SE ENTREGA EQUIPO LIMPIO LIBRE DE APLICACIONES DEL BANCO.",procede
+SCTASK19998776,2025-08-27 16:41:15,,EUT CAU Metro Sucursales,0,3088,VENCIDO,VS,"2025-08-27 16:41:15 - NITZELI GABRIELA AVIÑA AGUILAR (Notas de trabajo)
+ATENCION EN SITIO
+TIPO DE INTERVENCION:  CAU
+FALLA REAL:   SE ASIGNA EQUIPO POR CAMBIO DE AREA
+ORDEN DE SERVICIO:  GMGG00
+*INHBIDOR:   AEX_2508075_SCTASK19998776
+VOBO:   JOSE GUADALUPE FLORES RIOS
+ING:    GRISEL MONSERRAT GOMEZ GAITAN
+SOLUCION: SE ACUDE A SITIO SE REMPLAZA LAPTOP POR DAÑO EN PANTALLA POR CAIDA SE DEJA LAPTOP HP 640G9 NS:5CD4194K41, SE CARGA IMAGEN Y PERSONALIZA,SE HACEN PRUEBAS CON USAURIO QUEDA OPERANDO OK
+SUC:   EDIF. ANEXO SUC AZTECA
+CC:    5240
+ZONA: 1
+LOCALIDAD: CDMX
+
+IP:  180.97.216.59
+HOSTNAME:  SMPPVPSC324101P
+
+NAA
+
+2025-08-27 16:36:20 - NITZELI GABRIELA AVIÑA AGUILAR (Notas de trabajo)
+Archivo adjunto RESPONSIVA_SMPPVPSC324101P_5CD4194K41_C324101_JOSE GUADALUPE FLORES RIOS.pdf ha sido agregado por NITZELI GABRIELA AVIÑA AGUILAR
+
+2025-08-25 12:45:40 - NITZELI GABRIELA AVIÑA AGUILAR (Notas de trabajo)
+AEX-ASIGNACION EXTEMPORANEA
+
+2025-08-21 15:12:28 - JOSE GUADALUPE FLORES RIOS (Notas de trabajo)
+# Work notes from RITM017277380: 
+21/08/2025 23:12:28 - JOSE GUADALUPE FLORES RIOS (Work notes)
+Actual Start Date is: 21/08/2025 23:12:28
+
+
+
+",CAU_SOL,22 AGO - 28 AGO,AEX_2508075_SCTASK19998776,17,ASIGNACION FUERA DE TIEMPO," SE ACUDE A SITIO SE REMPLAZA LAPTOP POR DAÑO EN PANTALLA POR CAIDA SE DEJA LAPTOP HP 640G9 NS:5CD4194K41, SE CARGA IMAGEN Y PERSONALIZA,SE HACEN PRUEBAS CON USAURIO QUEDA OPERANDO OK",procede
+SCTASK19950041,2025-08-22 10:26:47,,EUT CAU Sur,2,2950,VENCIDO,VS,"2025-08-22 10:26:47 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+TIPO DE INTERVENCION: ASESORIA
+FALLA REAL:  PERSONALIZACION DE EQUIPO 
+INHIBIDOR: AES_25082202_SCTASK19950041
+SOLUCION:  NO SE LOGRA CONCTACTAR CON USUARIO SE LLAMA A LOS NUMEROS Y EXT PROPORCIONADOS  SIN TENER RESPUESA FAVOR  DE LEVANTAR FOLIO CON INFORMACION CORRRECTA PARA PODER BRINDAR LA ATENCION SOLICITADA 
+SUC:  EDIF. DIRECCION CORDOBA-OAXACA (ANEXO SUC 4899)
+CC:  4899
+ZONA:  2
+LOCALIDAD:  CORDOBA
+CHA
+
+2025-08-22 09:52:25 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+K002. NO SE ENCONTRO A USUARIO SE LLAMA A NUMERO TEL 9512261276 SIN TENER RESPÚESA DEL USUARIO
+
+2025-08-18 16:20:17 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+AEX. ASIGNACION EXTEMPORANEA DE ASIGNA PARA SU ATENCION
+
+2025-08-18 11:16:16 - Miriam Celis Delgado (Notas de trabajo)
+# Work notes from RITM017233657: 
+18/08/2025 19:16:16 - Miriam Celis Delgado (Work notes)
+Actual Start Date is: 18/08/2025 19:16:15
+
+
+
+",CAU_SOL,22 AGO - 28 AGO,AEX_25082202_SCTASK19950041,17,ASIGNACION FUERA DE TIEMPO,NO SE LOGRA CONCTACTAR CON USUARIO SE LLAMA A LOS NUMEROS Y EXT PROPORCIONADOS SIN TENER RESPUESA FAVOR DE LEVANTAR FOLIO CON INFORMACION CORRRECTA PARA PODER BRINDAR LA ATENCION SOLICITADA,procede
+SCTASK20028702,2025-08-28 14:36:50,,EUT CAU Norte,0,2163,VENCIDO,VS,"2025-08-28 14:36:46 - LUIS EDUARDO MATA NIÑO (Notas de trabajo)
+ATENCION EN SITIO
+TIPO DE INTERVENCION:CAU 
+FALLA REAL:  ONBOARDING
+INHIBIDOR: NA
+ORDEN DE SERVICIO:  JABC
+VOBO: TANIA GUZMAN ORTIZ
+ING:JORGE ALBERTO BECERRA CHACON
+SOLUCION: SE MANDA EQUIPO PARA ONBOARDING DESDE EL CORPORATIVO SAQQARA A CHIHUAHUA, SE CARGA IMAGEN CON W11 CORPORATIVA SE PERSONALIZA EL EQUIPO, USUARIO REALIZA PRUEBAS Y QUEDA OPERANDO
+SUC: VISTAS DEL SOL
+CC:  5479
+ZONA: 1
+LOCALIDAD: CHIHUAHUA
+LEMN
+
+2025-08-28 14:32:13 - LUIS EDUARDO MATA NIÑO (Notas de trabajo)
+Archivo adjunto RESPONSIVA SMCSRCHC037746P 5CD4194J4H C037746 TANIA GUZMAN ORTIZ OK.pdf ha sido agregado por LUIS EDUARDO MATA NIÑO
+
+2025-08-28 10:35:01 - LUIS EDUARDO MATA NIÑO (Notas de trabajo)
+SE ENVIA EQUIPO PARA ONBOARDING
+
+2025-08-25 16:03:07 - VICTOR JESUS CASTELLANOS GARCIA (Notas de trabajo)
+# Work notes from RITM017303763: 
+26/08/2025 00:03:06 - VICTOR JESUS CASTELLANOS GARCIA (Work notes)
+Actual Start Date is: 26/08/2025 00:03:06
+
+
+
+",CAU_SOL,22 AGO - 28 AGO,,11,FUERA DE TIEMPO,FOLIO FUERA,no_procede
+SCTASK20029150,2025-08-28 13:41:24,,EUT CAU Sur,0,2058,VENCIDO,VS,"2025-08-28 13:41:24 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+*PLANCHADO 2025
+ATENCION EN SITIO
+TIPO DE INTERVENCION: CAU
+FALLA REAL: PERSONALIZACION 
+INHIBIDOR: PRO_25082803_SCTASK20029150
+HIBRIDACION=INICIO: 27-08-2025 14:30 FIN:28-08-2025 12:00
+ORDEN DE SERVICIO: MFG
+VOBO: ISMERAI RUBI GARCIA ROMAN
+ING:  MIZRAIN FRANCO GARCIA
+SOLUCION: SE ASISTE A SITIO, SE REALIZA CARGA DE IMAGEN SEGURA, SE PERSONALIZA CORRECTAMENTE, SE HIBRIDACION DE EQUIPO,SE REALIZAN PRUEBAS QUEDANDO EL EQUIPO OPERANDO DE MANERA CORRECTA.
+SUC: EDIF. COSTA DE ORO VERACRUZ (EDIFICIO CORPORATIVO REGIONAL SURESTE)
+C.C.: ED049
+ZONA: 0
+LOCALIDAD:  BOCA DEL RIO 
+IP:  VPN
+HOST:  EXSOFTTZ982093P
+CHA
+
+2025-08-28 13:41:04 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+Archivo adjunto RESPONSIVA ISMERAI GARCIA.pdf ha sido agregado por CEDRID HERNANDEZ AGUILAR
+
+2025-08-28 13:35:40 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+HIBRIDACION=INICIO: 27-08-2025 14:30 FIN:28-08-2025 12:00
+
+2025-08-27 16:07:51 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+HIBRIDACION=INICIO: 27-08-2025  14:30
+
+2025-08-27 09:38:52 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+PRO. PROCESO TARDADO SE PROCEDE A BAJAR IMAGEN A EQUIPO
+
+2025-08-25 17:42:13 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+SSE CONTACTA CON USUARIO  Ismerai Rubi Garcia Roman COMENTA QUE ACUDIRA EL DIA 27 EN OHRARIO DE 9 AM PARA REALIZA   ATENCION SOLCITADA
+
+2025-08-25 16:53:44 - ELIZABETH BARCENAS SALAZAR (Observaciones adicionales)
+# Additional comments from RITM017304107: 
+25/08/2025 16:53:43 - ELIZABETH BARCENAS SALAZAR (Observaciones adicionales)
+Se requiere el plataformado del Ismerai Rubi Garcia Roman con teléfono 2291595416 que se encuentra en Veracruz, favor de realizar el plataformado en el lugar mas cercano al colaborador por favor.
+
+
+
+2025-08-25 16:52:55 - ELIZABETH BARCENAS SALAZAR (Notas de trabajo)
+# Work notes from RITM017304107: 
+25/08/2025 16:52:54 - ELIZABETH BARCENAS SALAZAR (Notas de trabajo)
+Actual Start Date is: 25/08/2025 16:52:54
+
+
+
+",CAU_SOL,22 AGO - 28 AGO,PRO_25082803_SCTASK20029150,10,PROCESO TARDADO,"SE ASISTE A SITIO, SE REALIZA CARGA DE IMAGEN SEGURA, SE PERSONALIZA CORRECTAMENTE, SE HIBRIDACION DE EQUIPO,SE REALIZAN PRUEBAS QUEDANDO EL EQUIPO OPERANDO DE MANERA CORRECTA",procede
+SCTASK20000034,2025-08-26 12:41:06,,EUT CAU Sur,0,1929,VENCIDO,VS,"2025-08-26 12:41:06 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+*PLANCHADO 2025
+ATENCION EN SITIO
+TIPO DE INTERVENCION: CAU
+FALLA REAL: PERSONALIZACION (DE EQUIPO POR RT)
+INHIBIDOR: PRO_25082605_SCTASK20000034
+HIBRIDACION=INICIO:25-08-2025 17:30 FIN:26-08-2025 11:00
+ORDEN DE SERVICIO: HGJT
+VOBO:  MARIANA MARTINEZ RAMIREZ
+ING:  HECTOR GILBERTO JIMENEZ TEJEDA
+SOLUCION: SE ASISTE A SITIO, SE REALIZA CARGA DE IMAGEN SEGURA, SE PERSONALIZA CORRECTAMENTE, SE HIBRIDACION DE  EQUIPO,SE REALIZAN PRUEBAS QUEDANDO EL EQUIPO OPERANDO DE MANERA CORRECTA.
+SUC: EDIF. COSTA DE ORO VERACRUZ (EDIFICIO CORPORATIVO REGIONAL SURESTE)
+C.C.: ED049
+ZONA: 0
+LOCALIDAD:  BOCA DEL RIO 
+IP:  VPN
+HOST:  SMHIPVZC110919P
+CHA
+
+2025-08-26 12:40:45 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+Archivo adjunto RESPONSIVA SMHIPVZC110919P 5CD4194JHZ C110919 MARIANA MARTINEZ RAMIREZ 1 1.pdf ha sido agregado por CEDRID HERNANDEZ AGUILAR
+
+2025-08-26 12:37:54 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+HIBRIDACION=INICIO:25-08-2025 17:30 FIN:26-08-2025 11:00
+
+2025-08-26 12:35:51 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+HIBRIDACION=INICIO:25-08-2025 17:30
+
+2025-08-25 14:26:17 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+PRO. PROCESO TARDADO SE PROCEDE A BAJAR IMAGEN
+
+2025-08-22 12:15:27 - CEDRID HERNANDEZ AGUILAR (Observaciones adicionales)
+# Additional comments from RITM017278360: 
+08-22-2025 12:15:27 - CEDRID HERNANDEZ AGUILAR (Observaciones adicionales)
+SCTASK20000035: Cerrado completo
+
+
+
+
+2025-08-21 18:01:20 - MARIANA MARTINEZ RAMIREZ (Notas de trabajo)
+# Work notes from RITM017278360: 
+21/08/2025 18:01:19 - MARIANA MARTINEZ RAMIREZ (Notas de trabajo)
+Actual Start Date is: 21/08/2025 18:01:19
+
+
+
+",CAU_SOL,22 AGO - 28 AGO,PRO_25082605_SCTASK20000034,10,PROCESO TARDADO,"SE ASISTE A SITIO, SE REALIZA CARGA DE IMAGEN SEGURA, SE PERSONALIZA CORRECTAMENTE, SE HIBRIDACION DE EQUIPO,SE REALIZAN PRUEBAS QUEDANDO EL EQUIPO OPERANDO DE MANERA CORRECTA.",procede
+SCTASK19999312,2025-08-25 16:39:15,,EUT CAU Sur,0,1517,VENCIDO,VS,"2025-08-25 16:39:15 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+*PLANCHADO 2025
+ATENCION EN SITIO
+TIPO DE INTERVENCION: CAU
+FALLA REAL: PERSONALIZACION 
+INHIBIDOR: PRO_25082503_SCTASK19999312
+ORDEN DE SERVICIO:  RRO
+VOBO: GUSTAVO GAYTAN CASTILLO
+ING: RAFAEL RODRIGUEZ OVANDO
+SOLUCION: SE ASISTE A SITIO, SE REALIZA CARGA DE IMAGEN SEGURA, SE PERSONALIZA CORRECTAMENTE, SE HIBRIDACION DE  EQUIPO,SE REALIZAN PRUEBAS QUEDANDO EL EQUIPO OPERANDO DE MANERA CORRECTA.
+SUC: SUC. PRINCIPAL POZA RICA
+C.C.: 4959
+ZONA: 1
+LOCALIDAD: POZA RICA
+IP: VPN
+HOST:  EXEYMEXZ982147P
+CHA
+
+2025-08-25 16:36:13 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+Archivo adjunto IMG-20250825-WA0054.jpg ha sido agregado por CEDRID HERNANDEZ AGUILAR
+
+2025-08-25 16:36:11 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+Archivo adjunto IMG-20250825-WA0052.jpg ha sido agregado por CEDRID HERNANDEZ AGUILAR
+
+2025-08-25 16:36:09 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+Archivo adjunto IMG-20250825-WA0053.jpg ha sido agregado por CEDRID HERNANDEZ AGUILAR
+
+2025-08-25 16:35:56 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+HIBRIDACION=INICIO:25-08-2025 14:30 FIN:25-08-2025 16:00
+
+2025-08-25 15:48:40 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+HIBRIDACION=INICIO:25-08-2025 14:30
+
+2025-08-25 12:32:22 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+PRO. PROCESO TARDADO SE ´PROCEDE A BAJA IMAGEN A EQUIPO
+
+2025-08-21 16:21:48 - DIANA LAURA FERNANDEZ CAMPOS (Notas de trabajo)
+# Work notes from RITM017277806: 
+22/08/2025 00:21:48 - DIANA LAURA FERNANDEZ CAMPOS (Work notes)
+Actual Start Date is: 22/08/2025 00:21:47
+
+
+
+",CAU_SOL,22 AGO - 28 AGO,PRO_25082503_SCTASK19999312,10,PROCESO TARDADO,"SE ASISTE A SITIO, SE REALIZA CARGA DE IMAGEN SEGURA, SE PERSONALIZA CORRECTAMENTE, SE HIBRIDACION DE EQUIPO,SE REALIZAN PRUEBAS QUEDANDO EL EQUIPO OPERANDO DE MANERA CORRECTA.",procede
+SCTASK19954483,2025-08-25 16:43:45,,EUT CAU Sur,1,3709,VENCIDO,VS,"2025-08-25 16:43:45 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+*PLANCHADO 2025
+ATENCION EN SITIO
+TIPO DE INTERVENCION: CAU
+FALLA REAL: PERSONALIZACION 
+INHIBIDOR: PRO_25082504_SCTASK19954483
+HIBRIDACION=INICIO: 25-08-2025 12:30 FIN: 25-08-2025 16:00
+ORDEN DE SERVICIO: JPHS
+VOBO:  YERITZA SANCHEZ GONZALEZ
+ING: JUAN PABLO HERNANDEZ SANTANA 
+SOLUCION: SE ASISTE A SITIO, SE REALIZA CARGA DE IMAGEN SEGURA, SE PERSONALIZA CORRECTAMENTE, SE HIBRIDACION DE  EQUIPO,SE REALIZAN PRUEBAS QUEDANDO EL EQUIPO OPERANDO DE MANERA CORRECTA.
+SUC: EDIF. DIRECCION DE ZONA MORELOS (PLAZA APOLO)
+C.C.: ED050
+ZONA: 1
+LOCALIDAD: CUERNAVACA
+IP:  VPN
+HOST: SMBAECVC030749P
+CHA
+
+2025-08-25 16:43:35 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+Archivo adjunto SCTASK19954483.pdf ha sido agregado por CEDRID HERNANDEZ AGUILAR
+
+2025-08-25 16:40:48 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+HIBRIDACION=INICIO: 25-08-2025 12:30 FIN: 25-08-2025  16:00
+
+2025-08-25 12:45:27 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+HIBRIDACION=INICIO: 25-08-2025  12:30
+
+2025-08-25 11:23:20 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+PRO. PROCESO TARADO, SE PROCEDE A BAJAR IMAGEN CORP
+
+2025-08-20 08:17:38 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+AEX. ASIGNACION EXTEMPORANEA SE ASIGNA PARA SU ATENCION
+
+2025-08-19 12:44:33 - CARLOS ULISES GUZMAN MARTINEZ (Observaciones adicionales)
+SE ASIGNA A CAU PARA SU ATENCIÓN.
+
+2025-08-18 17:23:50 - IVANNA ILLESCAS MARIÑELARENA (Notas de trabajo)
+# Work notes from RITM017237523: 
+19/08/2025 01:23:50 - IVANNA ILLESCAS MARIÑELARENA (Notas de trabajo)
+Actual Start Date is: 19/08/2025 01:23:50
+
+
+
+",CAU_SOL,22 AGO - 28 AGO,PRO_25082504_SCTASK19954483,10,PROCESO TARDADO,"SE ASISTE A SITIO, SE REALIZA CARGA DE IMAGEN SEGURA, SE PERSONALIZA CORRECTAMENTE, SE HIBRIDACION DE EQUIPO,SE REALIZAN PRUEBAS QUEDANDO EL EQUIPO OPERANDO",procede
+SCTASK19963515,2025-08-22 16:24:54,,EUT CAU Sur,1,2681,VENCIDO,VS,"2025-08-22 16:24:54 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+ATENCION EN SITIO
+TIPO DE INTERVENCION:  CAU
+FALLA REAL: ASIGNACION POR ONBOARDING       
+INHIBIDOR: PRO25082209_SCTASK19963515
+HIBRIDACION=INICIO:21-08-2025 15:30 FIN: 22-08-2025 13:00                                                                                                                                                                         
+ORDEN DE SERVICIO:  WVUS
+VOBO:   CUITLAHUAC CONTRERAS CARDOUNEL
+ING:   WILBERT VICTORIANO UCAN SUASTE
+SOLUCION: SE ASIGNA LAPTOP POR ONBOARDING, SE ASISTE A SITIO, SE REALIZA CARGA DE IMAGEN SEGURA, SE PERSONALIZA CORRECTAMENTE, SE HIBRIDACION DE EQUIPO, SE REALIZAN PRUEBAS QUEDANDO EL EQUIPO OPERANDO DE MANERA CORRECTA.
+SUC:  EDIF. CASONA MERIDA EDIFICIO 1 PA (ANEXO SUC 5097 MONTEJO)
+CC:   ED047
+ZONA:  0
+LOCALIDAD:  MERIDA
+IP:  VPN
+HOSTNAME:  SMPYMMEC021250P
+CHA
+
+2025-08-22 16:24:20 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+Archivo adjunto RESPONSIVA_ONBOARDING_SMPYMMEC021250P_5CD4194KWG_C021250_CUITLAHUAC_CONTRERAS_CORDOUNEL_FIRMADOS.pdf ha sido agregado por CEDRID HERNANDEZ AGUILAR
+
+2025-08-22 16:21:18 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+HIBRIDACION=INICIO:21-08-2025 15:30 FIN: 22-08-2025 13:00
+
+2025-08-22 16:20:32 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+PRO. PROCESO TARDADO SE PROCEDE A BAJAR IMAGEN
+
+2025-08-20 08:20:45 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+AEX. ASIGNACION EXTEMPORANEA SE ASIGNA PARA SU ATENCION
+
+2025-08-19 11:51:23 - CARLOS ULISES GUZMAN MARTINEZ (Observaciones adicionales)
+SE TURNA FOLIO A CAU PARA SU SEGUIMIENTO
+
+2025-08-19 09:13:17 - MARIA LUISA SOTO GARCIA (Notas de trabajo)
+# Work notes from RITM017245755: 
+19/08/2025 09:13:16 - MARIA LUISA SOTO GARCIA (Notas de trabajo)
+Actual Start Date is: 19/08/2025 09:13:16
+
+
+
+",CAU_SOL,22 AGO - 28 AGO,PRO__25082209_SCTASK19963515,10,PROCESO TARDADO," SE ASIGNA LAPTOP POR ONBOARDING, SE ASISTE A SITIO, SE REALIZA CARGA DE IMAGEN SEGURA, SE PERSONALIZA CORRECTAMENTE, SE HIBRIDACION DE EQUIPO, SE REALIZAN PRUEBAS QUEDANDO EL EQUIPO OPERANDO",procede
+SCTASK20041501,2025-08-28 16:43:08,,EUT CAU Sur,1,1776,VENCIDO,VS,"2025-08-28 16:43:08 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+*PLANCHADO 2025
+ATENCION EN SITIO
+TIPO DE INTERVENCION: CAU
+FALLA REAL: PERSONALIZACION 
+INHIBIDOR: PRO_25082804_SCTASK20041501
+ HIBRIDACION=INICIO:26-08-2025 16:00 FIN: 27-08-2025 16:00
+ORDEN DE SERVICIO: OAAA
+VOBO:  JORGE ISAAC LOBATO OYORZABAL
+ING:  OSCAR ANTONIO AGUILAR APARICIO
+SOLUCION: SE ASISTE A SITIO, SE REALIZA CARGA DE IMAGEN SEGURA, SE PERSONALIZA CORRECTAMENTE, SE HIBRIDACION DE  EQUIPO,SE REALIZAN PRUEBAS QUEDANDO EL EQUIPO OPERANDO DE MANERA CORRECTA.
+SUC:EDIF. CORPORATIVO ANGELOPOLIS (REGIONAL SUR PUEBLA)
+C.C.: ED180
+ZONA: 0
+LOCALIDAD:  PUEBLA
+IP:  VPN
+HOST:  SMPYMERC385222P
+CHA
+
+2025-08-28 16:42:43 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+Archivo adjunto RESPONSIVAS 5CD411J2YH SMPYMERC385222P C385222 JORGE ISAAC LOBATO OYORZABAL.pdf ha sido agregado por CEDRID HERNANDEZ AGUILAR
+
+2025-08-28 16:38:29 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+HIBRIDACION=INICIO:26-08-2025 16:00 FIN: 27-08-2025 16:00
+
+2025-08-26 16:18:44 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+HIBRIDACION=INICIO:26-08-2025  16:00
+
+2025-08-26 16:17:16 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+PRO. PROCESO TARDADO SE PROCEDE A BAJAR IMAGEN
+
+2025-08-26 12:07:07 - BERENICE CABRERA VEGA (Notas de trabajo)
+# Work notes from RITM017315229: 
+26/08/2025 12:07:07 - BERENICE CABRERA VEGA (Notas de trabajo)
+Actual Start Date is: 26/08/2025 12:07:06
+
+
+
+",CAU_SOL,22 AGO - 28 AGO,PRO_25082804_SCTASK20041501,10,PROCESO TARDADO," SE ASISTE A SITIO, SE REALIZA CARGA DE IMAGEN SEGURA, SE PERSONALIZA CORRECTAMENTE, SE HIBRIDACION DE EQUIPO,SE REALIZAN PRUEBAS QUEDANDO EL EQUIPO OPERANDO",procede
+SCTASK19952050,2025-08-22 09:58:12,,EUT CAU Sur,2,2780,VENCIDO,VS,"2025-08-22 09:58:12 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+*PLANCHADO 2025
+ATENCION EN SITIO
+TIPO DE INTERVENCION: CAU
+FALLA REAL: PERSONALIZACION 
+INHIBIDOR: PRO_25082201_SCTASK19952050
+HIBRIDACION=INICIO: 21-08-2025 15:30 FIN:21-08-2025 18:00
+ORDEN DE SERVICIO: GBH
+VOBO: DIANA ALEJANDRA PEREZ SANCHEZ
+ING: GABRIEL BAEZ HERNANDEZ
+SOLUCION: SE ASISTE A SITIO, SE REALIZA CARGA DE IMAGEN SEGURA, SE PERSONALIZA CORRECTAMENTE, SE HIBRIDACION DE  EQUIPO,SE REALIZAN PRUEBAS QUEDANDO EL EQUIPO OPERANDO DE MANERA CORRECTA.
+SUC: EDIF. DIRECCION CORDOBA-OAXACA (ANEXO SUC 4899 PPAL CORDOBA)
+C.C.: ED052
+ZONA: 2
+LOCALIDAD: CORDOBA
+IP:  VPN
+HOST: EXPLELAZ981040P
+CHA
+
+2025-08-22 09:57:48 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+Archivo adjunto IMG-20250821-WA0129.jpg ha sido agregado por CEDRID HERNANDEZ AGUILAR
+
+2025-08-22 09:57:46 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+Archivo adjunto IMG-20250821-WA0130.jpg ha sido agregado por CEDRID HERNANDEZ AGUILAR
+
+2025-08-22 09:54:05 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+HIBRIDACION=INICIO: 21-08-2025 15:30 FIN:21-08-2025 18:00
+
+2025-08-20 13:22:01 - CEDRID HERNANDEZ AGUILAR (Notas de trabajo)
+PRO. PROCESO TARDADO SE PROCEDE A BAJAR IMAGEN
+
+2025-08-18 13:37:53 - JENNY CONSUELO RIVEROS GUZMAN (Notas de trabajo)
+# Work notes from RITM017235527: 
+18/08/2025 21:37:52 - JENNY CONSUELO RIVEROS GUZMAN (Work notes)
+Actual Start Date is: 18/08/2025 21:37:51
+
+
+
+",CAU_SOL,22 AGO - 28 AGO,PRO_25082201_SCTASK19952050,10,PROCESO TARDADO,"SE ASISTE A SITIO, SE REALIZA CARGA DE IMAGEN SEGURA, SE PERSONALIZA CORRECTAMENTE, SE HIBRIDACION DE EQUIPO,SE REALIZAN PRUEBAS QUEDANDO EL EQUIPO OPERANDO DE MANERA CORRECTA",procede
