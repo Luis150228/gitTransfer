@@ -9,58 +9,10 @@
     "associateTickets": "27",
     "dateBegin": "2025-08-27 11:40 a.m.",
     "dateCut": "2025-08-28 01:42 p.m.",
-    "bandejaAsignacion": "bandeja",
-    "notasResolucion": "
-    $ npx -y pnpm@10.15.1 install
-Downloading echarts@6.0.0: 11.43 MB/11.43 MB, done
-Packages: +311
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Progress: resolved 377, reused 0, downloaded 311, added 311, done
-
-dependencies:
-+ @tabler/icons-react 3.34.1
-+ class-variance-authority 0.7.1
-+ clsx 2.1.1
-+ echarts 6.0.0
-+ flowbite 3.1.2
-+ framer-motion 12.23.12
-+ lucide-react 0.542.0
-+ motion 12.23.12
-+ react 19.1.1
-+ react-dom 19.1.1
-+ tailwind-merge 3.3.1
-
-devDependencies:
-+ @eslint/js 9.35.0
-+ @tailwindcss/vite 4.1.13
-+ @types/react 19.1.12
-+ @types/react-dom 19.1.9
-+ @vitejs/plugin-react 5.0.2
-+ eslint 9.35.0
-+ eslint-plugin-react 7.37.5
-+ eslint-plugin-react-hooks 5.2.0
-+ eslint-plugin-react-refresh 0.4.20
-+ globals 16.3.0
-+ tailwindcss 4.1.13
-+ tailwindcss-animate 1.0.7
-+ typescript 5.9.2
-+ vite 7.1.4
-
-╭ Warning ───────────────────────────────────────────────────────────────────────────────────╮
-│                                                                                            │
-│   Ignored build scripts: @tailwindcss/oxide, esbuild.                                      │
-│   Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts.   │
-│                                                                                            │
-╰────────────────────────────────────────────────────────────────────────────────────────────╯
-
-Done in 1m 37.7s using pnpm v10.15.1
-npm notice
-npm notice New minor version of npm available! 11.4.2 -> 11.6.0
-npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.6.0
-npm notice To update run: npm install -g npm@11.6.0
-npm notice
-
-C356882@GTINFANC356882P MINGW64 /c/dev/eut_template (main)
-$
-    "
+    "bandejaAsignacion": "git clone https://github.com/Luis150228/eut_template.git",
+    "paso1": "npx -y pnpm@10.15.1 install",
+    "paso2": "npx pnpm approve-builds",
+    "paso3": "npx pnpm rebuild esbuild @tailwindcss/oxide",
+    "paso4": "npx pnpm run dev",
+    "paso5": "npx pnpm install --frozen-lockfile"
 }
